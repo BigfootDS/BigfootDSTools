@@ -158,6 +158,3 @@ namespace BigfootDS {
 
 	}
 }
-
-
-//BigfootGeneralLocationFinder

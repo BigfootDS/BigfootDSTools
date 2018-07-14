@@ -5,14 +5,25 @@ using UnityEngine.UI;
 using BigfootDS;
 
 namespace BigfootDS {
+    /// <summary>
+    /// The main colour types of the built-in web colour materials. Should be Default, Matte and Metallic!
+    /// </summary>
 	public enum ColourType {Default, Matte, Metallic};
 	[ExecuteInEditMode]
 	public class ColourChangerTester : MonoBehaviour {
 
-		public ColourType thisColourType;
+        /// <summary>
+        /// The main colour types of the built-in web colour materials. Should be Default, Matte and Metallic!
+        /// </summary>
+        public ColourType thisColourType;
+
+        /// <summary>
+        /// Index value used to mark which current web colour material is in use.
+        /// </summary>
 		public int currentColourIndex = 0;
+
 		Renderer thisRenderer;
-		public string currentMaterialName;
+        public string currentMaterialName;
 		public Text materialNameDisplayer;
 
 		void Awake () {
