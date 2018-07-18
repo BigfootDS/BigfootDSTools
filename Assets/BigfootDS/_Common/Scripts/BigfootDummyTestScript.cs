@@ -10,6 +10,10 @@ namespace BigfootDS
     /// </summary>
     public class BigfootDummyTestScript : MonoBehaviour
     {
+        public int numOfHeads;
+        public int numOfTails;
+        public List<string> coinFlipResults = new List<string>();
+
         [ContextMenu("DTest D20 Roll")]
         public void DummyTestRollD20()
         {
@@ -18,5 +22,20 @@ namespace BigfootDS
             BigfootDiceAndCoins.RandomDiceValue(7, 3);
 
         }
+
+        private void Update()
+        {
+            string tempCoinFlipResult = BigfootDiceAndCoins.CoinFlip();
+            if (tempCoinFlipResult == "Heads")
+            {
+                numOfHeads++;
+            } else
+            {
+                numOfTails++;
+            }
+            coinFlipResults.Add(tempCoinFlipResult);
+        }
+
+
     }
 }
