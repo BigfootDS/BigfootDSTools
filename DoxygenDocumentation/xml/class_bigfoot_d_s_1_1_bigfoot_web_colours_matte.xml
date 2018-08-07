@@ -1,0 +1,2144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte" kind="class" language="C#" prot="public">
+    <compoundname>BigfootDS::BigfootWebColoursMatte</compoundname>
+    <basecompoundref refid="class_singleton_scriptable_object" prot="public" virt="non-virtual">SingletonScriptableObject&lt; BigfootWebColoursMatte &gt;</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a6a489608f2c3685168240947eee12cac" prot="private" static="yes" mutable="no">
+        <type>readonly string []</type>
+        <definition>readonly string [] BigfootDS.BigfootWebColoursMatte.materialLocation</definition>
+        <argsstring></argsstring>
+        <name>materialLocation</name>
+        <initializer>= {&quot;Assets/BigfootDS/_Common/Materials/Basic Colours - Matte/&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="13" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a08e4e5be93beb55fda8b9f48d58eb5bc" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.AliceBlue</definition>
+        <argsstring></argsstring>
+        <name>AliceBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="15" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5ad28a76353265b40bcfba206fc6b695" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.AntiqueWhite</definition>
+        <argsstring></argsstring>
+        <name>AntiqueWhite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="16" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a86ede8fa607d2e11390014723cf79f20" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Aqua</definition>
+        <argsstring></argsstring>
+        <name>Aqua</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="17" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a88cb2307e477a645f7ab20d45c53b599" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Aquamarine</definition>
+        <argsstring></argsstring>
+        <name>Aquamarine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="18" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a2b4ffcf4f2bb9d371a452b7f81ee5acb" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Azure</definition>
+        <argsstring></argsstring>
+        <name>Azure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="19" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ab073106d611b406e1541bc083e2e3a05" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Beige</definition>
+        <argsstring></argsstring>
+        <name>Beige</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="20" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a38cdf0995ef81083569c8791657ae1b8" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Bisque</definition>
+        <argsstring></argsstring>
+        <name>Bisque</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="21" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a0334f4b2cb8cddc94c91bdb27b9db0f7" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Black</definition>
+        <argsstring></argsstring>
+        <name>Black</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="22" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ab2d91c4d797c46a8aaa81e941f1a5539" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.BlanchedAlmond</definition>
+        <argsstring></argsstring>
+        <name>BlanchedAlmond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="23" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3f008421fff29f1965344e8f63bb34f3" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Blue</definition>
+        <argsstring></argsstring>
+        <name>Blue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="24" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a9bb1a78d89a88edda0ad4249d69643da" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.BlueViolet</definition>
+        <argsstring></argsstring>
+        <name>BlueViolet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="25" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4a6ac4e27d8133e299f9a8db71ca105f" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Brown</definition>
+        <argsstring></argsstring>
+        <name>Brown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="26" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a8c28681e5bee1222b8bfde510455f562" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.BurlyWood</definition>
+        <argsstring></argsstring>
+        <name>BurlyWood</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="27" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a27119e0f90da7fbaecd6c38102523a48" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.CadetBlue</definition>
+        <argsstring></argsstring>
+        <name>CadetBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="28" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a2f59d04a4f12efe0612bcaa81acf133f" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Chartreuse</definition>
+        <argsstring></argsstring>
+        <name>Chartreuse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="29" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af7aacdc2a68d5e7f2e3b843ea94ac7e8" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Chocolate</definition>
+        <argsstring></argsstring>
+        <name>Chocolate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="30" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af3512be1ca5b1e4d8698423ec0b740e5" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Coral</definition>
+        <argsstring></argsstring>
+        <name>Coral</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="31" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3e0f6c7f616789400f07a85580190e2c" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.CornflowerBlue</definition>
+        <argsstring></argsstring>
+        <name>CornflowerBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="32" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aafa75d25f25bfe17a7901489c64750ad" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Cornsilk</definition>
+        <argsstring></argsstring>
+        <name>Cornsilk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="33" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a6b79a14ee3ce79bc4e64b8015e30831f" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Crimson</definition>
+        <argsstring></argsstring>
+        <name>Crimson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="34" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af30d16e32fbca74f793f0ad80277359c" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Cyan</definition>
+        <argsstring></argsstring>
+        <name>Cyan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="35" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ad9cbbf7bb20aaff083909e1a93baf6f5" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkBlue</definition>
+        <argsstring></argsstring>
+        <name>DarkBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="36" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a24eb9b5604e5e64186f2b3e28932fcbf" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkCyan</definition>
+        <argsstring></argsstring>
+        <name>DarkCyan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="37" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a86f77b88dee20abe666805c76a07d51e" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkGoldenRod</definition>
+        <argsstring></argsstring>
+        <name>DarkGoldenRod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="38" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1afa3ea81da2f3e2a3746c182d40b989db" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkGray</definition>
+        <argsstring></argsstring>
+        <name>DarkGray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="39" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aaf056320707de9362aeb1541874d214f" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkGrey</definition>
+        <argsstring></argsstring>
+        <name>DarkGrey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="40" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1abde3c5736bdeb6cc7120563ec1d7de9b" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkGreen</definition>
+        <argsstring></argsstring>
+        <name>DarkGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="41" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a46332b9976faf195a92e5fdba60586fa" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkKhaki</definition>
+        <argsstring></argsstring>
+        <name>DarkKhaki</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="42" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a005323225995be556b19ce3878ed67f1" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkMagenta</definition>
+        <argsstring></argsstring>
+        <name>DarkMagenta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="43" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a7cec308fa6ec9c23490806d08c3b8a09" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkOliveGreen</definition>
+        <argsstring></argsstring>
+        <name>DarkOliveGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="44" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3a4730973cd53d4d2b1c6c521f6d372d" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkOrange</definition>
+        <argsstring></argsstring>
+        <name>DarkOrange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="45" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a0c5f83b919e4a3b88c7cb2c315de4d57" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkOrchid</definition>
+        <argsstring></argsstring>
+        <name>DarkOrchid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="46" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa06388e03110284a0470a121edfc4173" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkRed</definition>
+        <argsstring></argsstring>
+        <name>DarkRed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="47" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a8f4b6ce2d1d97c38d99ff19ce6cf86e4" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkSalmon</definition>
+        <argsstring></argsstring>
+        <name>DarkSalmon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="48" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a81c81122ba882e1ed09c3bfacaa199f7" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkSeaGreen</definition>
+        <argsstring></argsstring>
+        <name>DarkSeaGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="49" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa4df454b4bd349a4aea9d9b0705a648c" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkSlateBlue</definition>
+        <argsstring></argsstring>
+        <name>DarkSlateBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="50" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a212f2eb7c4633f6706aa94bc692e2571" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkSlateGray</definition>
+        <argsstring></argsstring>
+        <name>DarkSlateGray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="51" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a231d175279f3477956ec97f5f0d02c64" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkSlateGrey</definition>
+        <argsstring></argsstring>
+        <name>DarkSlateGrey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="52" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3d870a801cb018a882e6845466bcb214" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkTurquoise</definition>
+        <argsstring></argsstring>
+        <name>DarkTurquoise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="53" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3801f0008995349aa586bcefb5cbc4f2" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DarkViolet</definition>
+        <argsstring></argsstring>
+        <name>DarkViolet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="54" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4cff59f0fbbb6987f8adaa7526bde9c7" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DeepPink</definition>
+        <argsstring></argsstring>
+        <name>DeepPink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="55" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a0261c11e932a5513b7e849d3a0d613d5" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DeepSkyBlue</definition>
+        <argsstring></argsstring>
+        <name>DeepSkyBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="56" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4fe9e1f1f681d9ba1a9d512cdd3f66d5" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DimGray</definition>
+        <argsstring></argsstring>
+        <name>DimGray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="57" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a366cf765cbe1988a0b4cfff6b7fa5267" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DimGrey</definition>
+        <argsstring></argsstring>
+        <name>DimGrey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="58" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a9e5e3f920cb17c6c35dcc1836c1e4ab7" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.DodgerBlue</definition>
+        <argsstring></argsstring>
+        <name>DodgerBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="59" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a34051d3d4c55f0c5cabf1858953c09a2" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.FireBrick</definition>
+        <argsstring></argsstring>
+        <name>FireBrick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="60" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1afdcc5c3443ad488f15bcacd594355693" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.FloralWhite</definition>
+        <argsstring></argsstring>
+        <name>FloralWhite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="61" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ac3685307236f65a01e6a2a1695f8ca24" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.ForestGreen</definition>
+        <argsstring></argsstring>
+        <name>ForestGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="62" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a361eb54483e8a994a6c80c715706ab03" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Fuchsia</definition>
+        <argsstring></argsstring>
+        <name>Fuchsia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="63" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af577bd5d6fa65dc43cb5c3d06bd3beac" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Gainsboro</definition>
+        <argsstring></argsstring>
+        <name>Gainsboro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="64" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3ec15d2c36389cddff889dd80e1d0893" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.GhostWhite</definition>
+        <argsstring></argsstring>
+        <name>GhostWhite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="65" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a0f327b6f845bcb645c3dc7649911f432" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Gold</definition>
+        <argsstring></argsstring>
+        <name>Gold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="66" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a15ead7e48d4e9246878e18b461075f42" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.GoldenRod</definition>
+        <argsstring></argsstring>
+        <name>GoldenRod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="67" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a2837c3c631de8728ab2974fba2d3b8fc" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Gray</definition>
+        <argsstring></argsstring>
+        <name>Gray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="68" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a984516ccffd661fbd8e6f248faa94b4d" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Grey</definition>
+        <argsstring></argsstring>
+        <name>Grey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="69" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a139ea5bffe4f38ab1ba278b9e83eaf42" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Green</definition>
+        <argsstring></argsstring>
+        <name>Green</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="70" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4acf81410ea7aca3bbd62f3a34869414" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.GreenYellow</definition>
+        <argsstring></argsstring>
+        <name>GreenYellow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="71" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5fae153860211a7d687789391bb20af3" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.HoneyDew</definition>
+        <argsstring></argsstring>
+        <name>HoneyDew</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="72" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ae8d86ec376299450a38c2e6596bd9253" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.HotPink</definition>
+        <argsstring></argsstring>
+        <name>HotPink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="73" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a343270762db957bab901aa6b41250d09" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.IndianRed</definition>
+        <argsstring></argsstring>
+        <name>IndianRed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="74" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af6259334e77532bb842a439840c2031a" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Indigo</definition>
+        <argsstring></argsstring>
+        <name>Indigo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="75" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a474ae3f41ebca0ab1419cf2e57d74849" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Ivory</definition>
+        <argsstring></argsstring>
+        <name>Ivory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="76" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a7825fc269dc301ecdf524bce2064d4e7" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Khaki</definition>
+        <argsstring></argsstring>
+        <name>Khaki</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="77" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a98d5bb86f13456d86ff54227f37cd34b" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Lavender</definition>
+        <argsstring></argsstring>
+        <name>Lavender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="78" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ad24644041efa944f704005e288a35f54" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LavenderBlush</definition>
+        <argsstring></argsstring>
+        <name>LavenderBlush</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="79" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a64c87f94991a504229c3441735f4363f" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LawnGreen</definition>
+        <argsstring></argsstring>
+        <name>LawnGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="80" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a802f6d152d80cd3ed4b7ecfdbdd5b048" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LemonChiffon</definition>
+        <argsstring></argsstring>
+        <name>LemonChiffon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="81" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a79829e513973a08bd56906cc3df75892" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightBlue</definition>
+        <argsstring></argsstring>
+        <name>LightBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="82" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a69c22b5472a18c907d967f176adc0783" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightCoral</definition>
+        <argsstring></argsstring>
+        <name>LightCoral</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="83" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a8fbc1c6d0179ca0dc506b38362b3a3cf" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightCyan</definition>
+        <argsstring></argsstring>
+        <name>LightCyan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="84" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3d1848a4be948bd1c5a2af2fac7ff5af" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightGoldenRodYellow</definition>
+        <argsstring></argsstring>
+        <name>LightGoldenRodYellow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="85" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aaa2fb4bfe2f091aa69a2e5bef0da40f8" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightGray</definition>
+        <argsstring></argsstring>
+        <name>LightGray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="86" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3a06ba17c7733e22811811973f32451b" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightGrey</definition>
+        <argsstring></argsstring>
+        <name>LightGrey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="87" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4bd4bd569f1fedd91bf4dddd3456d51c" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightGreen</definition>
+        <argsstring></argsstring>
+        <name>LightGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="88" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a2b11500e86acd7e3c50020c53e93d591" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightPink</definition>
+        <argsstring></argsstring>
+        <name>LightPink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="89" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a350e362f87726ca60de996796d25e325" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightSalmon</definition>
+        <argsstring></argsstring>
+        <name>LightSalmon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="90" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a267e75711733230ec383fa5bc0c37305" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightSeaGreen</definition>
+        <argsstring></argsstring>
+        <name>LightSeaGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="91" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1acf50075f19bc039cf5c91eebf6a22891" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightSkyBlue</definition>
+        <argsstring></argsstring>
+        <name>LightSkyBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="92" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aaf98d78272e4014eef2d794c124ae406" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightSlateGray</definition>
+        <argsstring></argsstring>
+        <name>LightSlateGray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="93" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a80fad8a070f38fafb7473a2695e48aa0" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightSlateGrey</definition>
+        <argsstring></argsstring>
+        <name>LightSlateGrey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="94" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aed4222bdcff2db20699e028e17f2b91e" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightSteelBlue</definition>
+        <argsstring></argsstring>
+        <name>LightSteelBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="95" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5c2054ad72b920d7634ebcf8c23bd49f" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LightYellow</definition>
+        <argsstring></argsstring>
+        <name>LightYellow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="96" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a29d9c62650d58495070e49147015ebde" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Lime</definition>
+        <argsstring></argsstring>
+        <name>Lime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="97" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a97d5203a0fad40f333b6584189210833" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.LimeGreen</definition>
+        <argsstring></argsstring>
+        <name>LimeGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="98" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5a94d2069e41ef6db89c9777ff59d725" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Linen</definition>
+        <argsstring></argsstring>
+        <name>Linen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="99" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa086ecc6caad5b350eb8fc9cb4914390" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Magenta</definition>
+        <argsstring></argsstring>
+        <name>Magenta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="100" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1afdc338ce5d213cf34396111b44bf5d7c" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Maroon</definition>
+        <argsstring></argsstring>
+        <name>Maroon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="101" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ac3ab0fb97cbd9f28f0e25165d065b333" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.MediumAquaMarine</definition>
+        <argsstring></argsstring>
+        <name>MediumAquaMarine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="102" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1abb15cd24a891140eafba434e6cc3d35e" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.MediumBlue</definition>
+        <argsstring></argsstring>
+        <name>MediumBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="103" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ad480d7be9c76d11f6256c0aa666a92e5" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.MediumOrchid</definition>
+        <argsstring></argsstring>
+        <name>MediumOrchid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="104" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ad7d6b5e7e5e579497a91bf46be923f37" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.MediumPurple</definition>
+        <argsstring></argsstring>
+        <name>MediumPurple</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="105" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1add62a4a494844d3368a39634b94d1fbe" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.MediumSeaGreen</definition>
+        <argsstring></argsstring>
+        <name>MediumSeaGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="106" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1add189cea9b72f15378139bdb4289417a" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.MediumSlateBlue</definition>
+        <argsstring></argsstring>
+        <name>MediumSlateBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="107" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af2b8a362d8563bcb6e9ac4c5cf6b1f74" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.MediumSpringGreen</definition>
+        <argsstring></argsstring>
+        <name>MediumSpringGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="108" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a24592e281370d111d29f18a4bff0d4fd" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.MediumTurquoise</definition>
+        <argsstring></argsstring>
+        <name>MediumTurquoise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="109" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa52a769115b1097f3f74c2b92af8427c" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.MediumVioletRed</definition>
+        <argsstring></argsstring>
+        <name>MediumVioletRed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="110" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4686d9177bba2d7639bf1f962aa413eb" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.MidnightBlue</definition>
+        <argsstring></argsstring>
+        <name>MidnightBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="111" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ac38f0d6db3d99cbc852b23da481fb261" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.MintCream</definition>
+        <argsstring></argsstring>
+        <name>MintCream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="112" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4ed2a22683b99da45021d08a5eba98b0" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.MistyRose</definition>
+        <argsstring></argsstring>
+        <name>MistyRose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="113" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa0c9687afa4da81c5ef710cad115d918" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Moccasin</definition>
+        <argsstring></argsstring>
+        <name>Moccasin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="114" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a195c866015e77e51fd470f2303caaa2b" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.NavajoWhite</definition>
+        <argsstring></argsstring>
+        <name>NavajoWhite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="115" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa8931533521e473b605df7dd2d61185b" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Navy</definition>
+        <argsstring></argsstring>
+        <name>Navy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="116" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aab36f2f80b03b18a44e2383a104e0692" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.OldLace</definition>
+        <argsstring></argsstring>
+        <name>OldLace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="117" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1add355a2be0cad88fc1f7fa5f073f9c9f" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Olive</definition>
+        <argsstring></argsstring>
+        <name>Olive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="118" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a7c08bd920882803a23e49229c37b052a" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.OliveDrab</definition>
+        <argsstring></argsstring>
+        <name>OliveDrab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="119" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a82e355cd6c43579082a2919dd148a961" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Orange</definition>
+        <argsstring></argsstring>
+        <name>Orange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="120" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5d745d579334fa08a2b0ee037b1b954c" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.OrangeRed</definition>
+        <argsstring></argsstring>
+        <name>OrangeRed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="121" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ab3117db34a3e5b71ac74580fbaba28b0" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Orchid</definition>
+        <argsstring></argsstring>
+        <name>Orchid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="122" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a486359f6a256e99bbbf36b6cfb0e95bb" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.PaleGoldenRod</definition>
+        <argsstring></argsstring>
+        <name>PaleGoldenRod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="123" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a06f18022e869728b56b45a92c5a9960b" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.PaleGreen</definition>
+        <argsstring></argsstring>
+        <name>PaleGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="124" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a7bd957618bc2627939620bb19942a0ee" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.PaleTurquoise</definition>
+        <argsstring></argsstring>
+        <name>PaleTurquoise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="125" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a1d3f4610cd3706ee3dc797e3a84506d4" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.PaleVioletRed</definition>
+        <argsstring></argsstring>
+        <name>PaleVioletRed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="126" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a7d687e8ec33aff83fb415b6b6bddb3aa" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.PapayaWhip</definition>
+        <argsstring></argsstring>
+        <name>PapayaWhip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="127" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ab9338c8e8adb62cfdcd62b0a37c4ffe6" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.PeachPuff</definition>
+        <argsstring></argsstring>
+        <name>PeachPuff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="128" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1adc9e703da92bbff7534c9822e5b0f4a5" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Peru</definition>
+        <argsstring></argsstring>
+        <name>Peru</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="129" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aea8edbbad7e0919f5450ddd615224633" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Pink</definition>
+        <argsstring></argsstring>
+        <name>Pink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="130" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ad8dfda258072e71580144ebe37b1b635" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Plum</definition>
+        <argsstring></argsstring>
+        <name>Plum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="131" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a2dffcec756760040d737f8e310216869" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.PowderBlue</definition>
+        <argsstring></argsstring>
+        <name>PowderBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="132" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a72450c7a08f7fb390a5d341af1ffaf43" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Purple</definition>
+        <argsstring></argsstring>
+        <name>Purple</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="133" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a385b0b8801f64140b49f1222751d033d" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.RebeccaPurple</definition>
+        <argsstring></argsstring>
+        <name>RebeccaPurple</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="134" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5fa1d15cf806995cd0c4a5fdb446bfa5" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Red</definition>
+        <argsstring></argsstring>
+        <name>Red</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="135" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a89fa41b30c4a3cd453800e64ba595687" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.RosyBrown</definition>
+        <argsstring></argsstring>
+        <name>RosyBrown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="136" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a79ee9a6ff5457b5e0f858df391f86e03" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.RoyalBlue</definition>
+        <argsstring></argsstring>
+        <name>RoyalBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="137" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa6a83fddcaaf64b8fc52cf89c6aaec18" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.SaddleBrown</definition>
+        <argsstring></argsstring>
+        <name>SaddleBrown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="138" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ab38b09e53c72008e534d03d416de4487" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Salmon</definition>
+        <argsstring></argsstring>
+        <name>Salmon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="139" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3ee93ad9cd07663c459f18f27464d049" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.SandyBrown</definition>
+        <argsstring></argsstring>
+        <name>SandyBrown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="140" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5975517818a3d1a95b5953ef45bf8ac8" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.SeaGreen</definition>
+        <argsstring></argsstring>
+        <name>SeaGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="141" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a14fd3d38424785caa547cb5406c5612b" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.SeaShell</definition>
+        <argsstring></argsstring>
+        <name>SeaShell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="142" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a08616d1e0d6ad5a15b660b796d1f6356" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Sienna</definition>
+        <argsstring></argsstring>
+        <name>Sienna</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="143" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1abacb7ccf9ba8cbdd61c261df190ac816" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Silver</definition>
+        <argsstring></argsstring>
+        <name>Silver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="144" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4afd01c4b5d082a8905a532dddae3806" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.SkyBlue</definition>
+        <argsstring></argsstring>
+        <name>SkyBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="145" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ada165eb537dd2e4517769f6f37834fc5" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.SlateBlue</definition>
+        <argsstring></argsstring>
+        <name>SlateBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="146" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ab0dd622819815d517d6dd2e97d703937" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.SlateGray</definition>
+        <argsstring></argsstring>
+        <name>SlateGray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="147" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a2773792712fd8f4e6f616509f773dc64" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.SlateGrey</definition>
+        <argsstring></argsstring>
+        <name>SlateGrey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="148" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4c0b1b3af8c219a68cad71c48ca39277" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Snow</definition>
+        <argsstring></argsstring>
+        <name>Snow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="149" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aca05fd938fd832f3c74935084f287094" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.SpringGreen</definition>
+        <argsstring></argsstring>
+        <name>SpringGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="150" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a42619eae12bc5c50e6af7ccc5d54eb5b" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.SteelBlue</definition>
+        <argsstring></argsstring>
+        <name>SteelBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="151" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af738f799b4fd3149b4c4f0cad81a28df" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Tan</definition>
+        <argsstring></argsstring>
+        <name>Tan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="152" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3258951736124e1db5f91f57d4ee288a" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Teal</definition>
+        <argsstring></argsstring>
+        <name>Teal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="153" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a09597dec61b49e2a2714c88d03c3c23d" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Thistle</definition>
+        <argsstring></argsstring>
+        <name>Thistle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="154" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ae16d8af4de6495cd8e3e28f23b21c976" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Tomato</definition>
+        <argsstring></argsstring>
+        <name>Tomato</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="155" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3423d04b235f3e4c54ebdbe96d596e07" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Turquoise</definition>
+        <argsstring></argsstring>
+        <name>Turquoise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="156" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1acc51d8b77d2b2588790d74f5505d8580" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Violet</definition>
+        <argsstring></argsstring>
+        <name>Violet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="157" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a8f825fa467a990ea3ec3bebc2998c91b" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Wheat</definition>
+        <argsstring></argsstring>
+        <name>Wheat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="158" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3c86726cb4fd8f4b314058d5db5c5ae8" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.White</definition>
+        <argsstring></argsstring>
+        <name>White</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="159" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a43d540fe222ba06bcc58f0d40bb71125" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.WhiteSmoke</definition>
+        <argsstring></argsstring>
+        <name>WhiteSmoke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="160" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a1552a72f547e626f83d5b3c967f96512" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.Yellow</definition>
+        <argsstring></argsstring>
+        <name>Yellow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="161" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5b7837231fca86af557ceb63473b7103" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material BigfootDS.BigfootWebColoursMatte.YellowGreen</definition>
+        <argsstring></argsstring>
+        <name>YellowGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="162" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af54f35ef94926411c7fa8469ec8ce664" prot="public" static="no" mutable="no">
+        <type>List&lt; Material &gt;</type>
+        <definition>List&lt;Material&gt; BigfootDS.BigfootWebColoursMatte.materialsMatte</definition>
+        <argsstring></argsstring>
+        <name>materialsMatte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="164" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="24">
+        <label>BigfootDS.BigfootWebColoursMatte</label>
+        <link refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>SingletonScriptableObject&lt; BigfootWebColoursMatte &gt;</label>
+        <link refid="class_singleton_scriptable_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="26">
+        <label>BigfootDS.BigfootWebColoursMatte</label>
+        <link refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>SingletonScriptableObject&lt; BigfootWebColoursMatte &gt;</label>
+        <link refid="class_singleton_scriptable_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" line="12" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootWebColoursMatte.cs" bodystart="12" bodyend="325"/>
+    <listofallmembers>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a08e4e5be93beb55fda8b9f48d58eb5bc" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>AliceBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5ad28a76353265b40bcfba206fc6b695" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>AntiqueWhite</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a86ede8fa607d2e11390014723cf79f20" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Aqua</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a88cb2307e477a645f7ab20d45c53b599" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Aquamarine</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a2b4ffcf4f2bb9d371a452b7f81ee5acb" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Azure</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ab073106d611b406e1541bc083e2e3a05" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Beige</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a38cdf0995ef81083569c8791657ae1b8" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Bisque</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a0334f4b2cb8cddc94c91bdb27b9db0f7" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Black</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ab2d91c4d797c46a8aaa81e941f1a5539" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>BlanchedAlmond</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3f008421fff29f1965344e8f63bb34f3" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Blue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a9bb1a78d89a88edda0ad4249d69643da" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>BlueViolet</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4a6ac4e27d8133e299f9a8db71ca105f" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Brown</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a8c28681e5bee1222b8bfde510455f562" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>BurlyWood</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a27119e0f90da7fbaecd6c38102523a48" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>CadetBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a2f59d04a4f12efe0612bcaa81acf133f" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Chartreuse</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af7aacdc2a68d5e7f2e3b843ea94ac7e8" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Chocolate</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af3512be1ca5b1e4d8698423ec0b740e5" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Coral</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3e0f6c7f616789400f07a85580190e2c" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>CornflowerBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aafa75d25f25bfe17a7901489c64750ad" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Cornsilk</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a6b79a14ee3ce79bc4e64b8015e30831f" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Crimson</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af30d16e32fbca74f793f0ad80277359c" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Cyan</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ad9cbbf7bb20aaff083909e1a93baf6f5" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a24eb9b5604e5e64186f2b3e28932fcbf" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkCyan</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a86f77b88dee20abe666805c76a07d51e" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkGoldenRod</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1afa3ea81da2f3e2a3746c182d40b989db" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkGray</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1abde3c5736bdeb6cc7120563ec1d7de9b" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkGreen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aaf056320707de9362aeb1541874d214f" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkGrey</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a46332b9976faf195a92e5fdba60586fa" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkKhaki</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a005323225995be556b19ce3878ed67f1" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkMagenta</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a7cec308fa6ec9c23490806d08c3b8a09" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkOliveGreen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3a4730973cd53d4d2b1c6c521f6d372d" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkOrange</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a0c5f83b919e4a3b88c7cb2c315de4d57" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkOrchid</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa06388e03110284a0470a121edfc4173" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkRed</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a8f4b6ce2d1d97c38d99ff19ce6cf86e4" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkSalmon</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a81c81122ba882e1ed09c3bfacaa199f7" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkSeaGreen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa4df454b4bd349a4aea9d9b0705a648c" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkSlateBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a212f2eb7c4633f6706aa94bc692e2571" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkSlateGray</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a231d175279f3477956ec97f5f0d02c64" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkSlateGrey</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3d870a801cb018a882e6845466bcb214" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkTurquoise</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3801f0008995349aa586bcefb5cbc4f2" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DarkViolet</name></member>
+      <member refid="class_singleton_scriptable_object_1ab7d1b120991063507e31e1925880ac43" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>data</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4cff59f0fbbb6987f8adaa7526bde9c7" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DeepPink</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a0261c11e932a5513b7e849d3a0d613d5" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DeepSkyBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4fe9e1f1f681d9ba1a9d512cdd3f66d5" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DimGray</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a366cf765cbe1988a0b4cfff6b7fa5267" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DimGrey</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a9e5e3f920cb17c6c35dcc1836c1e4ab7" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>DodgerBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a34051d3d4c55f0c5cabf1858953c09a2" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>FireBrick</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1afdcc5c3443ad488f15bcacd594355693" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>FloralWhite</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ac3685307236f65a01e6a2a1695f8ca24" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>ForestGreen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a361eb54483e8a994a6c80c715706ab03" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Fuchsia</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af577bd5d6fa65dc43cb5c3d06bd3beac" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Gainsboro</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3ec15d2c36389cddff889dd80e1d0893" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>GhostWhite</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a0f327b6f845bcb645c3dc7649911f432" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Gold</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a15ead7e48d4e9246878e18b461075f42" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>GoldenRod</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a2837c3c631de8728ab2974fba2d3b8fc" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Gray</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a139ea5bffe4f38ab1ba278b9e83eaf42" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Green</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4acf81410ea7aca3bbd62f3a34869414" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>GreenYellow</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a984516ccffd661fbd8e6f248faa94b4d" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Grey</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5fae153860211a7d687789391bb20af3" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>HoneyDew</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ae8d86ec376299450a38c2e6596bd9253" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>HotPink</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a343270762db957bab901aa6b41250d09" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>IndianRed</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af6259334e77532bb842a439840c2031a" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Indigo</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a474ae3f41ebca0ab1419cf2e57d74849" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Ivory</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a7825fc269dc301ecdf524bce2064d4e7" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Khaki</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a98d5bb86f13456d86ff54227f37cd34b" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Lavender</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ad24644041efa944f704005e288a35f54" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LavenderBlush</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a64c87f94991a504229c3441735f4363f" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LawnGreen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a802f6d152d80cd3ed4b7ecfdbdd5b048" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LemonChiffon</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a79829e513973a08bd56906cc3df75892" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a69c22b5472a18c907d967f176adc0783" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightCoral</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a8fbc1c6d0179ca0dc506b38362b3a3cf" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightCyan</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3d1848a4be948bd1c5a2af2fac7ff5af" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightGoldenRodYellow</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aaa2fb4bfe2f091aa69a2e5bef0da40f8" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightGray</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4bd4bd569f1fedd91bf4dddd3456d51c" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightGreen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3a06ba17c7733e22811811973f32451b" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightGrey</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a2b11500e86acd7e3c50020c53e93d591" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightPink</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a350e362f87726ca60de996796d25e325" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightSalmon</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a267e75711733230ec383fa5bc0c37305" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightSeaGreen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1acf50075f19bc039cf5c91eebf6a22891" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightSkyBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aaf98d78272e4014eef2d794c124ae406" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightSlateGray</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a80fad8a070f38fafb7473a2695e48aa0" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightSlateGrey</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aed4222bdcff2db20699e028e17f2b91e" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightSteelBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5c2054ad72b920d7634ebcf8c23bd49f" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LightYellow</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a29d9c62650d58495070e49147015ebde" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Lime</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a97d5203a0fad40f333b6584189210833" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>LimeGreen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5a94d2069e41ef6db89c9777ff59d725" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Linen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa086ecc6caad5b350eb8fc9cb4914390" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Magenta</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1afdc338ce5d213cf34396111b44bf5d7c" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Maroon</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a6a489608f2c3685168240947eee12cac" prot="private" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>materialLocation</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af54f35ef94926411c7fa8469ec8ce664" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>materialsMatte</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ac3ab0fb97cbd9f28f0e25165d065b333" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>MediumAquaMarine</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1abb15cd24a891140eafba434e6cc3d35e" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>MediumBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ad480d7be9c76d11f6256c0aa666a92e5" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>MediumOrchid</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ad7d6b5e7e5e579497a91bf46be923f37" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>MediumPurple</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1add62a4a494844d3368a39634b94d1fbe" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>MediumSeaGreen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1add189cea9b72f15378139bdb4289417a" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>MediumSlateBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af2b8a362d8563bcb6e9ac4c5cf6b1f74" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>MediumSpringGreen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a24592e281370d111d29f18a4bff0d4fd" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>MediumTurquoise</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa52a769115b1097f3f74c2b92af8427c" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>MediumVioletRed</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4686d9177bba2d7639bf1f962aa413eb" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>MidnightBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ac38f0d6db3d99cbc852b23da481fb261" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>MintCream</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4ed2a22683b99da45021d08a5eba98b0" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>MistyRose</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa0c9687afa4da81c5ef710cad115d918" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Moccasin</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a195c866015e77e51fd470f2303caaa2b" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>NavajoWhite</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa8931533521e473b605df7dd2d61185b" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Navy</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aab36f2f80b03b18a44e2383a104e0692" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>OldLace</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1add355a2be0cad88fc1f7fa5f073f9c9f" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Olive</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a7c08bd920882803a23e49229c37b052a" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>OliveDrab</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a82e355cd6c43579082a2919dd148a961" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Orange</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5d745d579334fa08a2b0ee037b1b954c" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>OrangeRed</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ab3117db34a3e5b71ac74580fbaba28b0" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Orchid</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a486359f6a256e99bbbf36b6cfb0e95bb" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>PaleGoldenRod</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a06f18022e869728b56b45a92c5a9960b" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>PaleGreen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a7bd957618bc2627939620bb19942a0ee" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>PaleTurquoise</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a1d3f4610cd3706ee3dc797e3a84506d4" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>PaleVioletRed</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a7d687e8ec33aff83fb415b6b6bddb3aa" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>PapayaWhip</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ab9338c8e8adb62cfdcd62b0a37c4ffe6" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>PeachPuff</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1adc9e703da92bbff7534c9822e5b0f4a5" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Peru</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aea8edbbad7e0919f5450ddd615224633" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Pink</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ad8dfda258072e71580144ebe37b1b635" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Plum</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a2dffcec756760040d737f8e310216869" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>PowderBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a72450c7a08f7fb390a5d341af1ffaf43" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Purple</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a385b0b8801f64140b49f1222751d033d" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>RebeccaPurple</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5fa1d15cf806995cd0c4a5fdb446bfa5" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Red</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a89fa41b30c4a3cd453800e64ba595687" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>RosyBrown</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a79ee9a6ff5457b5e0f858df391f86e03" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>RoyalBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aa6a83fddcaaf64b8fc52cf89c6aaec18" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>SaddleBrown</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ab38b09e53c72008e534d03d416de4487" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Salmon</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3ee93ad9cd07663c459f18f27464d049" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>SandyBrown</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5975517818a3d1a95b5953ef45bf8ac8" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>SeaGreen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a14fd3d38424785caa547cb5406c5612b" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>SeaShell</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a08616d1e0d6ad5a15b660b796d1f6356" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Sienna</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1abacb7ccf9ba8cbdd61c261df190ac816" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Silver</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4afd01c4b5d082a8905a532dddae3806" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>SkyBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ada165eb537dd2e4517769f6f37834fc5" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>SlateBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ab0dd622819815d517d6dd2e97d703937" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>SlateGray</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a2773792712fd8f4e6f616509f773dc64" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>SlateGrey</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a4c0b1b3af8c219a68cad71c48ca39277" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Snow</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1aca05fd938fd832f3c74935084f287094" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>SpringGreen</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a42619eae12bc5c50e6af7ccc5d54eb5b" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>SteelBlue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1af738f799b4fd3149b4c4f0cad81a28df" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Tan</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3258951736124e1db5f91f57d4ee288a" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Teal</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a09597dec61b49e2a2714c88d03c3c23d" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Thistle</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1ae16d8af4de6495cd8e3e28f23b21c976" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Tomato</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3423d04b235f3e4c54ebdbe96d596e07" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Turquoise</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1acc51d8b77d2b2588790d74f5505d8580" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Violet</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a8f825fa467a990ea3ec3bebc2998c91b" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Wheat</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a3c86726cb4fd8f4b314058d5db5c5ae8" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>White</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a43d540fe222ba06bcc58f0d40bb71125" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>WhiteSmoke</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a1552a72f547e626f83d5b3c967f96512" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>Yellow</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte_1a5b7837231fca86af557ceb63473b7103" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootWebColoursMatte</scope><name>YellowGreen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

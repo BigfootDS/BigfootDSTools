@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_bigfoot_d_s_1_1_bigfoot_event_invoker" kind="class" language="C#" prot="public">
+    <compoundname>BigfootDS::BigfootEventInvoker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_bigfoot_d_s_1_1_bigfoot_event_invoker_1_1_specified_event" prot="public">BigfootDS::BigfootEventInvoker::SpecifiedEvent</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_event_invoker_1adaaf1c060ccd20350f5d50955038c249" prot="public" static="no" mutable="no">
+        <type><ref refid="class_bigfoot_d_s_1_1_bigfoot_event_invoker_1_1_specified_event" kindref="compound">SpecifiedEvent</ref></type>
+        <definition>SpecifiedEvent BigfootDS.BigfootEventInvoker.eventAction</definition>
+        <argsstring></argsstring>
+        <name>eventAction</name>
+        <initializer>= new <ref refid="class_bigfoot_d_s_1_1_bigfoot_event_invoker_1_1_specified_event" kindref="compound">SpecifiedEvent</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootEventInvoker.cs" line="15" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootEventInvoker.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_event_invoker_1afd2da43c09f856aeae9c259dfec22c81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.BigfootEventInvoker.StartEventAction</definition>
+        <argsstring>()</argsstring>
+        <name>StartEventAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootEventInvoker.cs" line="17" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootEventInvoker.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>BigfootDS.BigfootEventInvoker</label>
+        <link refid="class_bigfoot_d_s_1_1_bigfoot_event_invoker"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>BigfootDS.BigfootEventInvoker.SpecifiedEvent</label>
+        <link refid="class_bigfoot_d_s_1_1_bigfoot_event_invoker_1_1_specified_event"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>UnityEvent</label>
+      </node>
+      <node id="8">
+        <label>BigfootDS.BigfootEventInvoker</label>
+        <link refid="class_bigfoot_d_s_1_1_bigfoot_event_invoker"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>eventAction</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/BigfootDS/_Common/Scripts/BigfootEventInvoker.cs" line="11" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootEventInvoker.cs" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_event_invoker_1adaaf1c060ccd20350f5d50955038c249" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootEventInvoker</scope><name>eventAction</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_event_invoker_1afd2da43c09f856aeae9c259dfec22c81" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootEventInvoker</scope><name>StartEventAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

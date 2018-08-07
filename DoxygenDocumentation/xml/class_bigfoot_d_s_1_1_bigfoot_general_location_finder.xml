@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder" kind="class" language="C#" prot="public">
+    <compoundname>BigfootDS::BigfootGeneralLocationFinder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a76a67a66c34a490534022973b6ef8622" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.rawRGOutput</definition>
+        <argsstring></argsstring>
+        <name>rawRGOutput</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+<para>The raw data retrieved by the reverse-geocoding query. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="14" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a47dbb50a676cb53063ab0f648c93fc76" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool BigfootDS.BigfootGeneralLocationFinder.successfulRG</definition>
+        <argsstring></argsstring>
+        <name>successfulRG</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True/false flag for the status of the reverse-geocoding query. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="20" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a931f428edd0031ddf186903f148dd0a6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.userCountry</definition>
+        <argsstring></argsstring>
+        <name>userCountry</name>
+        <briefdescription>
+<para>The user&apos;s country based on their internet connection location. May be fooled by VPN setups. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="26" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1afe145b5b61a9f2a05493961ad7841e75" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.userCountryCode</definition>
+        <argsstring></argsstring>
+        <name>userCountryCode</name>
+        <briefdescription>
+<para>The user&apos;s country code as per ISO 3166. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="32" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a88c8886f1d052a9639468b53cba80eb1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.userRegionCode</definition>
+        <argsstring></argsstring>
+        <name>userRegionCode</name>
+        <briefdescription>
+<para>The code for the user&apos;s region or state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="38" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a0f4adca126c63bc34800d2d8a511ba87" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.userRegionName</definition>
+        <argsstring></argsstring>
+        <name>userRegionName</name>
+        <briefdescription>
+<para>The name of the user&apos;s region or state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="44" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a05f1fa53a9892d4de8103fbe16858db2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.userCity</definition>
+        <argsstring></argsstring>
+        <name>userCity</name>
+        <briefdescription>
+<para>The name of the user&apos;s city or town. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="50" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a4db74322da4080833664faf84768f92c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.userZipCode</definition>
+        <argsstring></argsstring>
+        <name>userZipCode</name>
+        <briefdescription>
+<para>The ZIP or postal code of the user&apos;s town or city. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="56" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a821155456db788ade1ad0c53b30a4e82" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.userLatitude</definition>
+        <argsstring></argsstring>
+        <name>userLatitude</name>
+        <briefdescription>
+<para>The user&apos;s latitude values. Due to the nature of IP-based requests, this will be very poor compared to a GPS coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="62" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a6c99e8e8c60a7f003dfcf0474c77ef41" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.userLongitude</definition>
+        <argsstring></argsstring>
+        <name>userLongitude</name>
+        <briefdescription>
+<para>The user&apos;s longitude values. Due to the nature of IP-based requests, this will be very poor compared to a GPS coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="68" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1ab443ecc804537beca860e12c3ff6c5cd" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.userTimeZone</definition>
+        <argsstring></argsstring>
+        <name>userTimeZone</name>
+        <briefdescription>
+<para>The timezone for the user based on their location (not the built-in device timezone). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="74" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a1269e7e1706072b54b099191ee3c4f59" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.userISPName</definition>
+        <argsstring></argsstring>
+        <name>userISPName</name>
+        <briefdescription>
+<para>The user&apos;s internet provider. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="80" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a410dad417fd2d229d2caf1474107364c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.userOrganizationName</definition>
+        <argsstring></argsstring>
+        <name>userOrganizationName</name>
+        <briefdescription>
+<para>The user&apos;s internet organization (usually the same as the ISP). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="86" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a973995199b617a6d6b40c4c7a331f5de" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.userAutonomousSystemCode</definition>
+        <argsstring></argsstring>
+        <name>userAutonomousSystemCode</name>
+        <briefdescription>
+<para>The user&apos;s internet autonomous system number and name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="92" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1ab1b2e2503b22529b0936c9c9ba8b88e0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.BigfootGeneralLocationFinder.userIPAddress</definition>
+        <argsstring></argsstring>
+        <name>userIPAddress</name>
+        <briefdescription>
+<para>The IP address used for the reverse-geocoding query. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="98" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a5e9cee69dcb8b0537be70f6e7ef8dba2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.BigfootGeneralLocationFinder.StartRGRetrieval</definition>
+        <argsstring>()</argsstring>
+        <name>StartRGRetrieval</name>
+        <briefdescription>
+<para>Alternative way to trigger the reverse-geocoding data-fetching coroutine <ndash/> incredibly important for UI &amp; button-based access. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="103" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="103" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a6fbed1e746517af8589df774e582771e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator BigfootDS.BigfootGeneralLocationFinder.GetRawRGData</definition>
+        <argsstring>()</argsstring>
+        <name>GetRawRGData</name>
+        <briefdescription>
+<para>Retrieves the raw reverse-geocoding data about the player, based on their IP address. Requires internet access. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="110" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="110" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a9740c9ca17041986a3c02e4597105b04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.BigfootGeneralLocationFinder.ProcessRGData</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessRGData</name>
+        <briefdescription>
+<para>Processes the data retrieved by the reverse-geocoding query and stores it as variables. Does not persist between sessions, so the query &amp; processing must be run at least once per session. </para>        </briefdescription>
+        <detaileddescription>
+<para>Automatically sanitizes outputs (eg. removing quotation marks) so any &amp; all information can be instantly used by other scripts &amp; functions. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="133" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="133" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>BigfootDS.BigfootGeneralLocationFinder</label>
+        <link refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>BigfootDS.BigfootGeneralLocationFinder</label>
+        <link refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" line="8" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootGeneralLocationFinder.cs" bodystart="8" bodyend="159"/>
+    <listofallmembers>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a6fbed1e746517af8589df774e582771e" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>GetRawRGData</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a9740c9ca17041986a3c02e4597105b04" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>ProcessRGData</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a76a67a66c34a490534022973b6ef8622" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>rawRGOutput</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a5e9cee69dcb8b0537be70f6e7ef8dba2" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>StartRGRetrieval</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a47dbb50a676cb53063ab0f648c93fc76" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>successfulRG</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a973995199b617a6d6b40c4c7a331f5de" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>userAutonomousSystemCode</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a05f1fa53a9892d4de8103fbe16858db2" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>userCity</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a931f428edd0031ddf186903f148dd0a6" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>userCountry</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1afe145b5b61a9f2a05493961ad7841e75" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>userCountryCode</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1ab1b2e2503b22529b0936c9c9ba8b88e0" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>userIPAddress</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a1269e7e1706072b54b099191ee3c4f59" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>userISPName</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a821155456db788ade1ad0c53b30a4e82" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>userLatitude</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a6c99e8e8c60a7f003dfcf0474c77ef41" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>userLongitude</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a410dad417fd2d229d2caf1474107364c" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>userOrganizationName</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a88c8886f1d052a9639468b53cba80eb1" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>userRegionCode</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a0f4adca126c63bc34800d2d8a511ba87" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>userRegionName</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1ab443ecc804537beca860e12c3ff6c5cd" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>userTimeZone</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder_1a4db74322da4080833664faf84768f92c" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootGeneralLocationFinder</scope><name>userZipCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script" kind="class" language="C#" prot="public">
+    <compoundname>BigfootDS::BigfootDummyTestScript</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script_1adef9fade3a144affcd34352ebeb40920" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BigfootDS.BigfootDummyTestScript.numOfHeads</definition>
+        <argsstring></argsstring>
+        <name>numOfHeads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDummyTestScript.cs" line="13" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDummyTestScript.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script_1a69c07d16341795395f15f8d368fbb805" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BigfootDS.BigfootDummyTestScript.numOfTails</definition>
+        <argsstring></argsstring>
+        <name>numOfTails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDummyTestScript.cs" line="14" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDummyTestScript.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script_1a339ee60fc8f620a967362e4659453e78" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; BigfootDS.BigfootDummyTestScript.coinFlipResults</definition>
+        <argsstring></argsstring>
+        <name>coinFlipResults</name>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDummyTestScript.cs" line="15" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDummyTestScript.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script_1a5e6dae54403c8d2f9f2828d6215d7b43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.BigfootDummyTestScript.DummyTestRollD20</definition>
+        <argsstring>()</argsstring>
+        <name>DummyTestRollD20</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDummyTestScript.cs" line="18" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDummyTestScript.cs" bodystart="18" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script_1a314b6e640867df0697a6b1e680bd9c90" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.BigfootDummyTestScript.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDummyTestScript.cs" line="26" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDummyTestScript.cs" bodystart="26" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Use this script to sandbox &amp; test other scripts, functions and features. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BigfootDS.BigfootDummyTestScript</label>
+        <link refid="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>BigfootDS.BigfootDummyTestScript</label>
+        <link refid="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/BigfootDS/_Common/Scripts/BigfootDummyTestScript.cs" line="12" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDummyTestScript.cs" bodystart="11" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script_1a339ee60fc8f620a967362e4659453e78" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDummyTestScript</scope><name>coinFlipResults</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script_1a5e6dae54403c8d2f9f2828d6215d7b43" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDummyTestScript</scope><name>DummyTestRollD20</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script_1adef9fade3a144affcd34352ebeb40920" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDummyTestScript</scope><name>numOfHeads</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script_1a69c07d16341795395f15f8d368fbb805" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDummyTestScript</scope><name>numOfTails</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script_1a314b6e640867df0697a6b1e680bd9c90" prot="private" virt="non-virtual"><scope>BigfootDS::BigfootDummyTestScript</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

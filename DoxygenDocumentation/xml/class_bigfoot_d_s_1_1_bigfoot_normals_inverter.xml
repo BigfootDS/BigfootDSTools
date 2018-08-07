@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_bigfoot_d_s_1_1_bigfoot_normals_inverter" kind="class" language="C#" prot="public">
+    <compoundname>BigfootDS::BigfootNormalsInverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_normals_inverter_1ae9f17ad0ec0cc214b044d8ee8f5c6ba7" prot="public" static="no" mutable="no">
+        <type>MeshFilter</type>
+        <definition>MeshFilter BigfootDS.BigfootNormalsInverter.meshToInvert</definition>
+        <argsstring></argsstring>
+        <name>meshToInvert</name>
+        <briefdescription>
+<para>The specified mesh that will have its normals inverted. The script will automatically fetch this component on the same object if this field is left blank. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootNormalsInverter.cs" line="12" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootNormalsInverter.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_bigfoot_normals_inverter_1aafe7464bb4afaa60822e2463d541bf77" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool BigfootDS.BigfootNormalsInverter.autoInverter</definition>
+        <argsstring></argsstring>
+        <name>autoInverter</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>If enabled, this will invert the normals of the desired mesh as soon as physically possible. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootNormalsInverter.cs" line="17" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootNormalsInverter.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_normals_inverter_1acf55cec7284ad16f586752875b2123bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.BigfootNormalsInverter.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootNormalsInverter.cs" line="19" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootNormalsInverter.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_normals_inverter_1aa1e69f42fcba0e36398db1e8fd7d217f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.BigfootNormalsInverter.InvertMeshNormals</definition>
+        <argsstring>()</argsstring>
+        <name>InvertMeshNormals</name>
+        <briefdescription>
+<para>Inverts the normals of a mesh as specified by the <ref refid="class_bigfoot_d_s_1_1_bigfoot_normals_inverter" kindref="compound">BigfootNormalsInverter</ref> component. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootNormalsInverter.cs" line="28" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootNormalsInverter.cs" bodystart="28" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>BigfootDS.BigfootNormalsInverter</label>
+        <link refid="class_bigfoot_d_s_1_1_bigfoot_normals_inverter"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="18">
+        <label>BigfootDS.BigfootNormalsInverter</label>
+        <link refid="class_bigfoot_d_s_1_1_bigfoot_normals_inverter"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/BigfootDS/_Common/Scripts/BigfootNormalsInverter.cs" line="6" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootNormalsInverter.cs" bodystart="6" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_normals_inverter_1aafe7464bb4afaa60822e2463d541bf77" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootNormalsInverter</scope><name>autoInverter</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_normals_inverter_1aa1e69f42fcba0e36398db1e8fd7d217f" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootNormalsInverter</scope><name>InvertMeshNormals</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_normals_inverter_1ae9f17ad0ec0cc214b044d8ee8f5c6ba7" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootNormalsInverter</scope><name>meshToInvert</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_normals_inverter_1acf55cec7284ad16f586752875b2123bb" prot="private" virt="non-virtual"><scope>BigfootDS::BigfootNormalsInverter</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

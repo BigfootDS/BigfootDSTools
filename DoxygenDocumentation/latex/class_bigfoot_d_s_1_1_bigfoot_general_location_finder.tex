@@ -1,0 +1,241 @@
+\hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder}{}\section{Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder Class Reference}
+\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder}\index{Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder}}
+Inheritance diagram for Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_bigfoot_d_s_1_1_bigfoot_general_location_finder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a5e9cee69dcb8b0537be70f6e7ef8dba2}{Start\+R\+G\+Retrieval}} ()
+\begin{DoxyCompactList}\small\item\em Alternative way to trigger the reverse-\/geocoding data-\/fetching coroutine -- incredibly important for UI \& button-\/based access. \end{DoxyCompactList}\item 
+I\+Enumerator \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a6fbed1e746517af8589df774e582771e}{Get\+Raw\+R\+G\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the raw reverse-\/geocoding data about the player, based on their IP address. Requires internet access. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a9740c9ca17041986a3c02e4597105b04}{Process\+R\+G\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Processes the data retrieved by the reverse-\/geocoding query and stores it as variables. Does not persist between sessions, so the query \& processing must be run at least once per session. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a76a67a66c34a490534022973b6ef8622}{raw\+R\+G\+Output}} = \char`\"{}\char`\"{}
+\begin{DoxyCompactList}\small\item\em The raw data retrieved by the reverse-\/geocoding query. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a47dbb50a676cb53063ab0f648c93fc76}{successful\+RG}} = false
+\begin{DoxyCompactList}\small\item\em True/false flag for the status of the reverse-\/geocoding query. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a931f428edd0031ddf186903f148dd0a6}{user\+Country}}
+\begin{DoxyCompactList}\small\item\em The user\textquotesingle{}s country based on their internet connection location. May be fooled by V\+PN setups. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_afe145b5b61a9f2a05493961ad7841e75}{user\+Country\+Code}}
+\begin{DoxyCompactList}\small\item\em The user\textquotesingle{}s country code as per I\+SO 3166. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a88c8886f1d052a9639468b53cba80eb1}{user\+Region\+Code}}
+\begin{DoxyCompactList}\small\item\em The code for the user\textquotesingle{}s region or state. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a0f4adca126c63bc34800d2d8a511ba87}{user\+Region\+Name}}
+\begin{DoxyCompactList}\small\item\em The name of the user\textquotesingle{}s region or state. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a05f1fa53a9892d4de8103fbe16858db2}{user\+City}}
+\begin{DoxyCompactList}\small\item\em The name of the user\textquotesingle{}s city or town. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a4db74322da4080833664faf84768f92c}{user\+Zip\+Code}}
+\begin{DoxyCompactList}\small\item\em The Z\+IP or postal code of the user\textquotesingle{}s town or city. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a821155456db788ade1ad0c53b30a4e82}{user\+Latitude}}
+\begin{DoxyCompactList}\small\item\em The user\textquotesingle{}s latitude values. Due to the nature of I\+P-\/based requests, this will be very poor compared to a G\+PS coordinate. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a6c99e8e8c60a7f003dfcf0474c77ef41}{user\+Longitude}}
+\begin{DoxyCompactList}\small\item\em The user\textquotesingle{}s longitude values. Due to the nature of I\+P-\/based requests, this will be very poor compared to a G\+PS coordinate. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_ab443ecc804537beca860e12c3ff6c5cd}{user\+Time\+Zone}}
+\begin{DoxyCompactList}\small\item\em The timezone for the user based on their location (not the built-\/in device timezone). \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a1269e7e1706072b54b099191ee3c4f59}{user\+I\+S\+P\+Name}}
+\begin{DoxyCompactList}\small\item\em The user\textquotesingle{}s internet provider. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a410dad417fd2d229d2caf1474107364c}{user\+Organization\+Name}}
+\begin{DoxyCompactList}\small\item\em The user\textquotesingle{}s internet organization (usually the same as the I\+SP). \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a973995199b617a6d6b40c4c7a331f5de}{user\+Autonomous\+System\+Code}}
+\begin{DoxyCompactList}\small\item\em The user\textquotesingle{}s internet autonomous system number and name. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_ab1b2e2503b22529b0936c9c9ba8b88e0}{user\+I\+P\+Address}}
+\begin{DoxyCompactList}\small\item\em The IP address used for the reverse-\/geocoding query. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a6fbed1e746517af8589df774e582771e}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a6fbed1e746517af8589df774e582771e}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!Get\+Raw\+R\+G\+Data@{Get\+Raw\+R\+G\+Data}}
+\index{Get\+Raw\+R\+G\+Data@{Get\+Raw\+R\+G\+Data}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{Get\+Raw\+R\+G\+Data()}{GetRawRGData()}}
+{\footnotesize\ttfamily I\+Enumerator Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+Get\+Raw\+R\+G\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves the raw reverse-\/geocoding data about the player, based on their IP address. Requires internet access. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a9740c9ca17041986a3c02e4597105b04}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a9740c9ca17041986a3c02e4597105b04}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!Process\+R\+G\+Data@{Process\+R\+G\+Data}}
+\index{Process\+R\+G\+Data@{Process\+R\+G\+Data}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{Process\+R\+G\+Data()}{ProcessRGData()}}
+{\footnotesize\ttfamily void Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+Process\+R\+G\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Processes the data retrieved by the reverse-\/geocoding query and stores it as variables. Does not persist between sessions, so the query \& processing must be run at least once per session. 
+
+Automatically sanitizes outputs (eg. removing quotation marks) so any \& all information can be instantly used by other scripts \& functions. \mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a5e9cee69dcb8b0537be70f6e7ef8dba2}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a5e9cee69dcb8b0537be70f6e7ef8dba2}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!Start\+R\+G\+Retrieval@{Start\+R\+G\+Retrieval}}
+\index{Start\+R\+G\+Retrieval@{Start\+R\+G\+Retrieval}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{Start\+R\+G\+Retrieval()}{StartRGRetrieval()}}
+{\footnotesize\ttfamily void Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+Start\+R\+G\+Retrieval (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Alternative way to trigger the reverse-\/geocoding data-\/fetching coroutine -- incredibly important for UI \& button-\/based access. 
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a76a67a66c34a490534022973b6ef8622}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a76a67a66c34a490534022973b6ef8622}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!raw\+R\+G\+Output@{raw\+R\+G\+Output}}
+\index{raw\+R\+G\+Output@{raw\+R\+G\+Output}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{raw\+R\+G\+Output}{rawRGOutput}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+raw\+R\+G\+Output = \char`\"{}\char`\"{}}
+
+
+
+The raw data retrieved by the reverse-\/geocoding query. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a47dbb50a676cb53063ab0f648c93fc76}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a47dbb50a676cb53063ab0f648c93fc76}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!successful\+RG@{successful\+RG}}
+\index{successful\+RG@{successful\+RG}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{successful\+RG}{successfulRG}}
+{\footnotesize\ttfamily bool Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+successful\+RG = false}
+
+
+
+True/false flag for the status of the reverse-\/geocoding query. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a973995199b617a6d6b40c4c7a331f5de}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a973995199b617a6d6b40c4c7a331f5de}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!user\+Autonomous\+System\+Code@{user\+Autonomous\+System\+Code}}
+\index{user\+Autonomous\+System\+Code@{user\+Autonomous\+System\+Code}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{user\+Autonomous\+System\+Code}{userAutonomousSystemCode}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+user\+Autonomous\+System\+Code}
+
+
+
+The user\textquotesingle{}s internet autonomous system number and name. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a05f1fa53a9892d4de8103fbe16858db2}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a05f1fa53a9892d4de8103fbe16858db2}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!user\+City@{user\+City}}
+\index{user\+City@{user\+City}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{user\+City}{userCity}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+user\+City}
+
+
+
+The name of the user\textquotesingle{}s city or town. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a931f428edd0031ddf186903f148dd0a6}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a931f428edd0031ddf186903f148dd0a6}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!user\+Country@{user\+Country}}
+\index{user\+Country@{user\+Country}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{user\+Country}{userCountry}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+user\+Country}
+
+
+
+The user\textquotesingle{}s country based on their internet connection location. May be fooled by V\+PN setups. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_afe145b5b61a9f2a05493961ad7841e75}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_afe145b5b61a9f2a05493961ad7841e75}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!user\+Country\+Code@{user\+Country\+Code}}
+\index{user\+Country\+Code@{user\+Country\+Code}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{user\+Country\+Code}{userCountryCode}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+user\+Country\+Code}
+
+
+
+The user\textquotesingle{}s country code as per I\+SO 3166. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_ab1b2e2503b22529b0936c9c9ba8b88e0}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_ab1b2e2503b22529b0936c9c9ba8b88e0}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!user\+I\+P\+Address@{user\+I\+P\+Address}}
+\index{user\+I\+P\+Address@{user\+I\+P\+Address}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{user\+I\+P\+Address}{userIPAddress}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+user\+I\+P\+Address}
+
+
+
+The IP address used for the reverse-\/geocoding query. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a1269e7e1706072b54b099191ee3c4f59}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a1269e7e1706072b54b099191ee3c4f59}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!user\+I\+S\+P\+Name@{user\+I\+S\+P\+Name}}
+\index{user\+I\+S\+P\+Name@{user\+I\+S\+P\+Name}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{user\+I\+S\+P\+Name}{userISPName}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+user\+I\+S\+P\+Name}
+
+
+
+The user\textquotesingle{}s internet provider. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a821155456db788ade1ad0c53b30a4e82}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a821155456db788ade1ad0c53b30a4e82}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!user\+Latitude@{user\+Latitude}}
+\index{user\+Latitude@{user\+Latitude}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{user\+Latitude}{userLatitude}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+user\+Latitude}
+
+
+
+The user\textquotesingle{}s latitude values. Due to the nature of I\+P-\/based requests, this will be very poor compared to a G\+PS coordinate. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a6c99e8e8c60a7f003dfcf0474c77ef41}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a6c99e8e8c60a7f003dfcf0474c77ef41}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!user\+Longitude@{user\+Longitude}}
+\index{user\+Longitude@{user\+Longitude}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{user\+Longitude}{userLongitude}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+user\+Longitude}
+
+
+
+The user\textquotesingle{}s longitude values. Due to the nature of I\+P-\/based requests, this will be very poor compared to a G\+PS coordinate. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a410dad417fd2d229d2caf1474107364c}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a410dad417fd2d229d2caf1474107364c}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!user\+Organization\+Name@{user\+Organization\+Name}}
+\index{user\+Organization\+Name@{user\+Organization\+Name}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{user\+Organization\+Name}{userOrganizationName}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+user\+Organization\+Name}
+
+
+
+The user\textquotesingle{}s internet organization (usually the same as the I\+SP). 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a88c8886f1d052a9639468b53cba80eb1}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a88c8886f1d052a9639468b53cba80eb1}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!user\+Region\+Code@{user\+Region\+Code}}
+\index{user\+Region\+Code@{user\+Region\+Code}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{user\+Region\+Code}{userRegionCode}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+user\+Region\+Code}
+
+
+
+The code for the user\textquotesingle{}s region or state. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a0f4adca126c63bc34800d2d8a511ba87}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a0f4adca126c63bc34800d2d8a511ba87}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!user\+Region\+Name@{user\+Region\+Name}}
+\index{user\+Region\+Name@{user\+Region\+Name}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{user\+Region\+Name}{userRegionName}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+user\+Region\+Name}
+
+
+
+The name of the user\textquotesingle{}s region or state. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_ab443ecc804537beca860e12c3ff6c5cd}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_ab443ecc804537beca860e12c3ff6c5cd}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!user\+Time\+Zone@{user\+Time\+Zone}}
+\index{user\+Time\+Zone@{user\+Time\+Zone}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{user\+Time\+Zone}{userTimeZone}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+user\+Time\+Zone}
+
+
+
+The timezone for the user based on their location (not the built-\/in device timezone). 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a4db74322da4080833664faf84768f92c}\label{class_bigfoot_d_s_1_1_bigfoot_general_location_finder_a4db74322da4080833664faf84768f92c}} 
+\index{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}!user\+Zip\+Code@{user\+Zip\+Code}}
+\index{user\+Zip\+Code@{user\+Zip\+Code}!Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder@{Bigfoot\+D\+S\+::\+Bigfoot\+General\+Location\+Finder}}
+\subsubsection{\texorpdfstring{user\+Zip\+Code}{userZipCode}}
+{\footnotesize\ttfamily string Bigfoot\+D\+S.\+Bigfoot\+General\+Location\+Finder.\+user\+Zip\+Code}
+
+
+
+The Z\+IP or postal code of the user\textquotesingle{}s town or city. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Bigfoot\+D\+S/\+\_\+\+Common/\+Scripts/Bigfoot\+General\+Location\+Finder.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_56a44e279ba22edd74d5c15e2e14709b" kind="dir">
+    <compoundname>Assets/BigfootDS/_Common/Scripts</compoundname>
+    <innerdir refid="dir_5dfb1406544ca70158d9691d4b723870">Assets/BigfootDS/_Common/Scripts/Editor</innerdir>
+    <innerfile refid="_bigfoot_dice_and_coins_8cs">BigfootDiceAndCoins.cs</innerfile>
+    <innerfile refid="_bigfoot_dummy_test_script_8cs">BigfootDummyTestScript.cs</innerfile>
+    <innerfile refid="_bigfoot_event_invoker_8cs">BigfootEventInvoker.cs</innerfile>
+    <innerfile refid="_bigfoot_general_location_finder_8cs">BigfootGeneralLocationFinder.cs</innerfile>
+    <innerfile refid="_bigfoot_normals_inverter_8cs">BigfootNormalsInverter.cs</innerfile>
+    <innerfile refid="_bigfoot_web_colours_default_8cs">BigfootWebColoursDefault.cs</innerfile>
+    <innerfile refid="_bigfoot_web_colours_matte_8cs">BigfootWebColoursMatte.cs</innerfile>
+    <innerfile refid="_bigfoot_web_colours_metallic_8cs">BigfootWebColoursMetallic.cs</innerfile>
+    <innerfile refid="_colour_changer_tester_8cs">ColourChangerTester.cs</innerfile>
+    <innerfile refid="_scene_changing_8cs">SceneChanging.cs</innerfile>
+    <innerfile refid="_simple_point_to_point_mover_8cs">SimplePointToPointMover.cs</innerfile>
+    <innerfile refid="_singleton_scriptable_object_8cs">SingletonScriptableObject.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/BigfootDS/_Common/Scripts/"/>
+  </compounddef>
+</doxygen>

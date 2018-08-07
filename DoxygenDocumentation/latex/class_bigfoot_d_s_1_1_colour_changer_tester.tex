@@ -1,0 +1,103 @@
+\hypertarget{class_bigfoot_d_s_1_1_colour_changer_tester}{}\section{Bigfoot\+D\+S.\+Colour\+Changer\+Tester Class Reference}
+\label{class_bigfoot_d_s_1_1_colour_changer_tester}\index{Bigfoot\+D\+S.\+Colour\+Changer\+Tester@{Bigfoot\+D\+S.\+Colour\+Changer\+Tester}}
+Inheritance diagram for Bigfoot\+D\+S.\+Colour\+Changer\+Tester\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_bigfoot_d_s_1_1_colour_changer_tester}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_bigfoot_d_s_1_1_colour_changer_tester_a062a15842af6c9e67840e8827ea345ee}{Select\+Random\+Colour}} ()
+\begin{DoxyCompactList}\small\item\em Selects a random colour from the appropriate \mbox{\hyperlink{class_singleton_scriptable_object}{Singleton\+Scriptable\+Object}} that contains references to web-\/friendly colours. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bigfoot_d_s_1_1_colour_changer_tester_a723b8d8bcccfccd194319e4ea608e821}{Colour\+Assigner}} ()
+\begin{DoxyCompactList}\small\item\em Clamps the current\+Colour\+Index value to fit within an appropritate material list and then assigns that material to the object containing this script. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bigfoot_d_s_1_1_colour_changer_tester_af15ff93daa349ad267667db3f88f18c3}{Select\+Previous\+Colour}} ()
+\begin{DoxyCompactList}\small\item\em Changes the colour index value and immediately calls the Colour\+Assigner function to change the colour of this object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bigfoot_d_s_1_1_colour_changer_tester_ae480b9548f5407a651999676d1724da2}{Select\+Next\+Colour}} ()
+\begin{DoxyCompactList}\small\item\em Changes the colour index value and immediately calls the Colour\+Assigner function to change the colour of this object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespace_bigfoot_d_s_abbe5e74a13ceee1200fe8df86775491b}{Colour\+Type}} \mbox{\hyperlink{class_bigfoot_d_s_1_1_colour_changer_tester_ab7fcdc500194580a3d2881be60ba2079}{this\+Colour\+Type}}
+\begin{DoxyCompactList}\small\item\em The main colour types of the built-\/in web colour materials. Should be Default, Matte and Metallic! \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_bigfoot_d_s_1_1_colour_changer_tester_aa4dfb28508c536b6aeb95261415c64a6}{current\+Colour\+Index}} = 0
+\begin{DoxyCompactList}\small\item\em Index value used to mark which current web colour material is in use. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_colour_changer_tester_a7ac564ac5150e1cfadf622d9fc802e36}\label{class_bigfoot_d_s_1_1_colour_changer_tester_a7ac564ac5150e1cfadf622d9fc802e36}} 
+string {\bfseries current\+Material\+Name}
+\item 
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_colour_changer_tester_a0dc48d1ef7ec4251172cd3a8f9469f7f}\label{class_bigfoot_d_s_1_1_colour_changer_tester_a0dc48d1ef7ec4251172cd3a8f9469f7f}} 
+Text {\bfseries material\+Name\+Displayer}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_colour_changer_tester_a723b8d8bcccfccd194319e4ea608e821}\label{class_bigfoot_d_s_1_1_colour_changer_tester_a723b8d8bcccfccd194319e4ea608e821}} 
+\index{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester@{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester}!Colour\+Assigner@{Colour\+Assigner}}
+\index{Colour\+Assigner@{Colour\+Assigner}!Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester@{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester}}
+\subsubsection{\texorpdfstring{Colour\+Assigner()}{ColourAssigner()}}
+{\footnotesize\ttfamily void Bigfoot\+D\+S.\+Colour\+Changer\+Tester.\+Colour\+Assigner (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clamps the current\+Colour\+Index value to fit within an appropritate material list and then assigns that material to the object containing this script. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_colour_changer_tester_ae480b9548f5407a651999676d1724da2}\label{class_bigfoot_d_s_1_1_colour_changer_tester_ae480b9548f5407a651999676d1724da2}} 
+\index{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester@{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester}!Select\+Next\+Colour@{Select\+Next\+Colour}}
+\index{Select\+Next\+Colour@{Select\+Next\+Colour}!Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester@{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester}}
+\subsubsection{\texorpdfstring{Select\+Next\+Colour()}{SelectNextColour()}}
+{\footnotesize\ttfamily void Bigfoot\+D\+S.\+Colour\+Changer\+Tester.\+Select\+Next\+Colour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Changes the colour index value and immediately calls the Colour\+Assigner function to change the colour of this object. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_colour_changer_tester_af15ff93daa349ad267667db3f88f18c3}\label{class_bigfoot_d_s_1_1_colour_changer_tester_af15ff93daa349ad267667db3f88f18c3}} 
+\index{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester@{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester}!Select\+Previous\+Colour@{Select\+Previous\+Colour}}
+\index{Select\+Previous\+Colour@{Select\+Previous\+Colour}!Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester@{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester}}
+\subsubsection{\texorpdfstring{Select\+Previous\+Colour()}{SelectPreviousColour()}}
+{\footnotesize\ttfamily void Bigfoot\+D\+S.\+Colour\+Changer\+Tester.\+Select\+Previous\+Colour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Changes the colour index value and immediately calls the Colour\+Assigner function to change the colour of this object. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_colour_changer_tester_a062a15842af6c9e67840e8827ea345ee}\label{class_bigfoot_d_s_1_1_colour_changer_tester_a062a15842af6c9e67840e8827ea345ee}} 
+\index{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester@{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester}!Select\+Random\+Colour@{Select\+Random\+Colour}}
+\index{Select\+Random\+Colour@{Select\+Random\+Colour}!Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester@{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester}}
+\subsubsection{\texorpdfstring{Select\+Random\+Colour()}{SelectRandomColour()}}
+{\footnotesize\ttfamily void Bigfoot\+D\+S.\+Colour\+Changer\+Tester.\+Select\+Random\+Colour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Selects a random colour from the appropriate \mbox{\hyperlink{class_singleton_scriptable_object}{Singleton\+Scriptable\+Object}} that contains references to web-\/friendly colours. 
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_colour_changer_tester_aa4dfb28508c536b6aeb95261415c64a6}\label{class_bigfoot_d_s_1_1_colour_changer_tester_aa4dfb28508c536b6aeb95261415c64a6}} 
+\index{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester@{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester}!current\+Colour\+Index@{current\+Colour\+Index}}
+\index{current\+Colour\+Index@{current\+Colour\+Index}!Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester@{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester}}
+\subsubsection{\texorpdfstring{current\+Colour\+Index}{currentColourIndex}}
+{\footnotesize\ttfamily int Bigfoot\+D\+S.\+Colour\+Changer\+Tester.\+current\+Colour\+Index = 0}
+
+
+
+Index value used to mark which current web colour material is in use. 
+
+\mbox{\Hypertarget{class_bigfoot_d_s_1_1_colour_changer_tester_ab7fcdc500194580a3d2881be60ba2079}\label{class_bigfoot_d_s_1_1_colour_changer_tester_ab7fcdc500194580a3d2881be60ba2079}} 
+\index{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester@{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester}!this\+Colour\+Type@{this\+Colour\+Type}}
+\index{this\+Colour\+Type@{this\+Colour\+Type}!Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester@{Bigfoot\+D\+S\+::\+Colour\+Changer\+Tester}}
+\subsubsection{\texorpdfstring{this\+Colour\+Type}{thisColourType}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_bigfoot_d_s_abbe5e74a13ceee1200fe8df86775491b}{Colour\+Type}} Bigfoot\+D\+S.\+Colour\+Changer\+Tester.\+this\+Colour\+Type}
+
+
+
+The main colour types of the built-\/in web colour materials. Should be Default, Matte and Metallic! 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Bigfoot\+D\+S/\+\_\+\+Common/\+Scripts/Colour\+Changer\+Tester.\+cs\end{DoxyCompactItemize}

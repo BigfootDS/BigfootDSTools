@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_bigfoot_d_s_1_1_folder_structure_generator" kind="class" language="C#" prot="public">
+    <compoundname>BigfootDS::FolderStructureGenerator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_folder_structure_generator_1a94eb3a5abf0dff93c37c88b590b44a17" prot="private" static="yes" mutable="no">
+        <type>string []</type>
+        <definition>string [] BigfootDS.FolderStructureGenerator.foldersToGenerate</definition>
+        <argsstring></argsstring>
+        <name>foldersToGenerate</name>
+        <initializer>= new string[] { &quot;__Sandbox&quot;, &quot;_Demo&quot;, &quot;_ImportedAssets&quot;, &quot;Animations&quot;, &quot;Audio&quot;, &quot;Fonts&quot;, &quot;Materials&quot;, &quot;Models&quot;, &quot;Prefabs&quot;, &quot;Plugins&quot;, &quot;ScriptableObjects&quot;, &quot;Scripts&quot;, &quot;Shaders&quot;, &quot;Sprites&quot;, &quot;Textures&quot;, &quot;Audio/SFX&quot;, &quot;Audio/Music&quot;, &quot;Scripts/Editor&quot;, &quot;Plugins/iOS&quot;, &quot;Plugins/Android&quot; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" line="15" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_folder_structure_generator_1aaddc799c445ab04cd16ff7386598e58d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BigfootDS.FolderStructureGenerator.GenerateBasicFolderStructure</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateBasicFolderStructure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" line="18" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" bodystart="18" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="37">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="36">
+        <label>BigfootDS.FolderStructureGenerator</label>
+        <link refid="class_bigfoot_d_s_1_1_folder_structure_generator"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="39">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="38">
+        <label>BigfootDS.FolderStructureGenerator</label>
+        <link refid="class_bigfoot_d_s_1_1_folder_structure_generator"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" line="11" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" bodystart="10" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_bigfoot_d_s_1_1_folder_structure_generator_1a94eb3a5abf0dff93c37c88b590b44a17" prot="private" virt="non-virtual"><scope>BigfootDS::FolderStructureGenerator</scope><name>foldersToGenerate</name></member>
+      <member refid="class_bigfoot_d_s_1_1_folder_structure_generator_1aaddc799c445ab04cd16ff7386598e58d" prot="public" virt="non-virtual"><scope>BigfootDS::FolderStructureGenerator</scope><name>GenerateBasicFolderStructure</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

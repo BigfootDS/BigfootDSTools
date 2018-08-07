@@ -1,0 +1,80 @@
+.TH "BigfootDS.ColourChangerTester" 3 "Mon Aug 6 2018" "Version 1" "BigfootDS Unity Tools" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+BigfootDS.ColourChangerTester
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBSelectRandomColour\fP ()"
+.br
+.RI "Selects a random colour from the appropriate \fBSingletonScriptableObject\fP that contains references to web-friendly colours\&. "
+.ti -1c
+.RI "void \fBColourAssigner\fP ()"
+.br
+.RI "Clamps the currentColourIndex value to fit within an appropritate material list and then assigns that material to the object containing this script\&. "
+.ti -1c
+.RI "void \fBSelectPreviousColour\fP ()"
+.br
+.RI "Changes the colour index value and immediately calls the ColourAssigner function to change the colour of this object\&. "
+.ti -1c
+.RI "void \fBSelectNextColour\fP ()"
+.br
+.RI "Changes the colour index value and immediately calls the ColourAssigner function to change the colour of this object\&. "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBColourType\fP \fBthisColourType\fP"
+.br
+.RI "The main colour types of the built-in web colour materials\&. Should be Default, Matte and Metallic! "
+.ti -1c
+.RI "int \fBcurrentColourIndex\fP = 0"
+.br
+.RI "Index value used to mark which current web colour material is in use\&. "
+.ti -1c
+.RI "string \fBcurrentMaterialName\fP"
+.br
+.ti -1c
+.RI "Text \fBmaterialNameDisplayer\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "void BigfootDS\&.ColourChangerTester\&.ColourAssigner ()"
+
+.PP
+Clamps the currentColourIndex value to fit within an appropritate material list and then assigns that material to the object containing this script\&. 
+.SS "void BigfootDS\&.ColourChangerTester\&.SelectNextColour ()"
+
+.PP
+Changes the colour index value and immediately calls the ColourAssigner function to change the colour of this object\&. 
+.SS "void BigfootDS\&.ColourChangerTester\&.SelectPreviousColour ()"
+
+.PP
+Changes the colour index value and immediately calls the ColourAssigner function to change the colour of this object\&. 
+.SS "void BigfootDS\&.ColourChangerTester\&.SelectRandomColour ()"
+
+.PP
+Selects a random colour from the appropriate \fBSingletonScriptableObject\fP that contains references to web-friendly colours\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "int BigfootDS\&.ColourChangerTester\&.currentColourIndex = 0"
+
+.PP
+Index value used to mark which current web colour material is in use\&. 
+.SS "\fBColourType\fP BigfootDS\&.ColourChangerTester\&.thisColourType"
+
+.PP
+The main colour types of the built-in web colour materials\&. Should be Default, Matte and Metallic! 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for BigfootDS Unity Tools from the source code\&.

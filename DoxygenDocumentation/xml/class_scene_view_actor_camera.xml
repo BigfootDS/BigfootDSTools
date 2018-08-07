@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_scene_view_actor_camera" kind="class" language="C#" prot="public">
+    <compoundname>SceneViewActorCamera</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_scene_view_actor_camera_1a6eb3fd6af426257f28d4c0f27f52679c" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string SceneViewActorCamera.MenuName</definition>
+        <argsstring></argsstring>
+        <name>MenuName</name>
+        <initializer>= &quot;BigfootDS/Toggle Actor Camera&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="52" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_view_actor_camera_1aaf8f4c2d1800860701fa34d7f6dcf186" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string SceneViewActorCamera.SettingName</definition>
+        <argsstring></argsstring>
+        <name>SettingName</name>
+        <initializer>= &quot;ActorCameraEnabled&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="53" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_scene_view_actor_camera_1a0de0dd5d70d8e78328be80c326882725" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool SceneViewActorCamera.IsActorCamEnabled</definition>
+        <argsstring></argsstring>
+        <name>IsActorCamEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="55" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="56" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_scene_view_actor_camera_1a99fc940c929ecd0be983f6d5f606c7df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SceneViewActorCamera.QuickMoveMainCamToSceneCam</definition>
+        <argsstring>()</argsstring>
+        <name>QuickMoveMainCamToSceneCam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="9" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="9" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_view_actor_camera_1a2c008ee53d553b0ff4ed85f5c02e8319" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SceneViewActorCamera.ResetMainCamToWorldZero</definition>
+        <argsstring>()</argsstring>
+        <name>ResetMainCamToWorldZero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="23" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="23" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_view_actor_camera_1a64bdb8bab8474234aa7d7feaca807eee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SceneViewActorCamera.ResetMainCamToUnityDefault</definition>
+        <argsstring>()</argsstring>
+        <name>ResetMainCamToUnityDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="38" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="38" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_view_actor_camera_1a3e544b9e43a8dba5304140b3661752b1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SceneViewActorCamera.MatchMainCameraToValues</definition>
+        <argsstring>()</argsstring>
+        <name>MatchMainCameraToValues</name>
+        <briefdescription>
+<para>This overload will force the Main Camera to match the Scene View camera. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="113" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="113" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_view_actor_camera_1a77349efed7b218f0c931926186cecd4e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SceneViewActorCamera.MatchMainCameraToValues</definition>
+        <argsstring>(Vector3 newPosition, Quaternion newRotation, Vector3 newScale, bool useGlobalSpace)</argsstring>
+        <name>MatchMainCameraToValues</name>
+        <param>
+          <type>Vector3</type>
+          <declname>newPosition</declname>
+        </param>
+        <param>
+          <type>Quaternion</type>
+          <declname>newRotation</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>newScale</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useGlobalSpace</declname>
+        </param>
+        <briefdescription>
+<para>Make the scene&apos;s Main Camera move to specified values. This overload lets you specify every value, and takes in the rotation values as a Quaternion instead of a Vector3. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New position coordinates.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newRotation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New rotation values</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New scale multiplier values.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>useGlobalSpace</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If this is true, all values above will be applied in world/global space.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="128" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="128" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_view_actor_camera_1aceebf34bad9730f98c6e04fc264883be" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SceneViewActorCamera.MatchMainCameraToValues</definition>
+        <argsstring>(Vector3 newPosition, Quaternion newRotation, Vector3 newScale)</argsstring>
+        <name>MatchMainCameraToValues</name>
+        <param>
+          <type>Vector3</type>
+          <declname>newPosition</declname>
+        </param>
+        <param>
+          <type>Quaternion</type>
+          <declname>newRotation</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>newScale</declname>
+        </param>
+        <briefdescription>
+<para>Make the scene&apos;s Main Camera move to specified values. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion. Defaults to modifying position &amp; rotation in worldspace. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New position coordinates.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newRotation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New rotation values</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New scale multiplier values.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="152" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="152" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_view_actor_camera_1ae248bbbefe424aabc56875b4f7bf942d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SceneViewActorCamera.MatchMainCameraToValues</definition>
+        <argsstring>(Vector3 newPosition, Vector3 newRotation, Vector3 newScale, bool useGlobalSpace)</argsstring>
+        <name>MatchMainCameraToValues</name>
+        <param>
+          <type>Vector3</type>
+          <declname>newPosition</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>newRotation</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>newScale</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useGlobalSpace</declname>
+        </param>
+        <briefdescription>
+<para>Make the scene&apos;s Main Camera move to specified values. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New position coordinates.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newRotation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New rotation values</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New scale multiplier values.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>useGlobalSpace</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If this is true, all values above will be applied in world/global space.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="167" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="167" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_view_actor_camera_1a66ac86cd938970082513231063316872" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SceneViewActorCamera.MatchMainCameraToValues</definition>
+        <argsstring>(Vector3 newPosition, Vector3 newRotation, Vector3 newScale)</argsstring>
+        <name>MatchMainCameraToValues</name>
+        <param>
+          <type>Vector3</type>
+          <declname>newPosition</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>newRotation</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>newScale</declname>
+        </param>
+        <briefdescription>
+<para>Make the scene&apos;s Main Camera move to specified values. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion. Defaults to modifying position &amp; rotation in worldspace. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New position coordinates.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newRotation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New rotation values</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New scale multiplier values.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>useGlobalSpace</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If this is true, all values above will be applied in world/global space.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="191" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="191" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_view_actor_camera_1a6803c2185afa5fb555dd64eafdab31b6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SceneViewActorCamera.MatchMainCameraToValues</definition>
+        <argsstring>(bool zeroTheCamera, bool resetToUnityDefault)</argsstring>
+        <name>MatchMainCameraToValues</name>
+        <param>
+          <type>bool</type>
+          <declname>zeroTheCamera</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>resetToUnityDefault</declname>
+        </param>
+        <briefdescription>
+<para>Make the scene&apos;s Main Camera move to specified values. This overload will let you choose between one of two options: either reset the Main Camera to the world-zero, or reset it to Unity&apos;s default values. This overload will fail if both are true or if both are false. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>zeroTheCamera</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reset the Main Camera&apos;s position &amp; rotation to Vector3.zero, and scale of Vector3.one.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>resetToUnityDefault</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reset the Main Camera&apos;s position to X0, Y1, Z-10, rotation to Vector3.zero, and scale to Vector3.one.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="203" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="203" bodyend="223"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_scene_view_actor_camera_1a71771a41ebe56b19228f4ccd782174b5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SceneViewActorCamera.ToggleAction</definition>
+        <argsstring>()</argsstring>
+        <name>ToggleAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="68" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="68" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_view_actor_camera_1a2532a1456d194dbf3f8a7c30e60dba99" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SceneViewActorCamera.ToggleActionValidate</definition>
+        <argsstring>()</argsstring>
+        <name>ToggleActionValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="85" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="85" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_view_actor_camera_1a7d041a033089e695d4c07e740a606ffb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SceneViewActorCamera.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="93" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="93" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="53">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="52">
+        <label>SceneViewActorCamera</label>
+        <link refid="class_scene_view_actor_camera"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="55">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="54">
+        <label>SceneViewActorCamera</label>
+        <link refid="class_scene_view_actor_camera"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" line="6" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneViewActorCamera.cs" bodystart="6" bodyend="229"/>
+    <listofallmembers>
+      <member refid="class_scene_view_actor_camera_1a0de0dd5d70d8e78328be80c326882725" prot="public" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>IsActorCamEnabled</name></member>
+      <member refid="class_scene_view_actor_camera_1a3e544b9e43a8dba5304140b3661752b1" prot="public" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>MatchMainCameraToValues</name></member>
+      <member refid="class_scene_view_actor_camera_1a77349efed7b218f0c931926186cecd4e" prot="public" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>MatchMainCameraToValues</name></member>
+      <member refid="class_scene_view_actor_camera_1aceebf34bad9730f98c6e04fc264883be" prot="public" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>MatchMainCameraToValues</name></member>
+      <member refid="class_scene_view_actor_camera_1ae248bbbefe424aabc56875b4f7bf942d" prot="public" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>MatchMainCameraToValues</name></member>
+      <member refid="class_scene_view_actor_camera_1a66ac86cd938970082513231063316872" prot="public" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>MatchMainCameraToValues</name></member>
+      <member refid="class_scene_view_actor_camera_1a6803c2185afa5fb555dd64eafdab31b6" prot="public" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>MatchMainCameraToValues</name></member>
+      <member refid="class_scene_view_actor_camera_1a6eb3fd6af426257f28d4c0f27f52679c" prot="private" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>MenuName</name></member>
+      <member refid="class_scene_view_actor_camera_1a99fc940c929ecd0be983f6d5f606c7df" prot="public" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>QuickMoveMainCamToSceneCam</name></member>
+      <member refid="class_scene_view_actor_camera_1a64bdb8bab8474234aa7d7feaca807eee" prot="public" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>ResetMainCamToUnityDefault</name></member>
+      <member refid="class_scene_view_actor_camera_1a2c008ee53d553b0ff4ed85f5c02e8319" prot="public" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>ResetMainCamToWorldZero</name></member>
+      <member refid="class_scene_view_actor_camera_1aaf8f4c2d1800860701fa34d7f6dcf186" prot="private" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>SettingName</name></member>
+      <member refid="class_scene_view_actor_camera_1a71771a41ebe56b19228f4ccd782174b5" prot="private" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>ToggleAction</name></member>
+      <member refid="class_scene_view_actor_camera_1a2532a1456d194dbf3f8a7c30e60dba99" prot="private" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>ToggleActionValidate</name></member>
+      <member refid="class_scene_view_actor_camera_1a7d041a033089e695d4c07e740a606ffb" prot="private" virt="non-virtual"><scope>SceneViewActorCamera</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

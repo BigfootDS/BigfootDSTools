@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_bigfoot_d_s_1_1_folder_structure_wizard" kind="class" language="C#" prot="public">
+    <compoundname>BigfootDS::FolderStructureWizard</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableWizard</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_folder_structure_wizard_1a50ea0ecdc934635b543b889f9b3a3137" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.FolderStructureWizard.foldersPrefix</definition>
+        <argsstring></argsstring>
+        <name>foldersPrefix</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" line="42" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_folder_structure_wizard_1a0d8cee92696e97b34af579efaae02ce6" prot="public" static="no" mutable="no">
+        <type>string []</type>
+        <definition>string [] BigfootDS.FolderStructureWizard.customFoldersToGenerate</definition>
+        <argsstring></argsstring>
+        <name>customFoldersToGenerate</name>
+        <initializer>= new string[] { &quot;__Sandbox&quot;, &quot;_Demo&quot;, &quot;_ImportedAssets&quot;, &quot;Animations&quot;, &quot;Audio&quot;, &quot;Fonts&quot;, &quot;Materials&quot;, &quot;Models&quot;, &quot;Prefabs&quot;, &quot;Plugins&quot;, &quot;ScriptableObjects&quot;, &quot;Scripts&quot;, &quot;Shaders&quot;, &quot;Sprites&quot;, &quot;Textures&quot;, &quot;Audio/SFX&quot;, &quot;Audio/Music&quot;, &quot;Scripts/Editor&quot;, &quot;Plugins/iOS&quot;, &quot;Plugins/Android&quot; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" line="44" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_folder_structure_wizard_1a1385e0b34ea11fe34b3fdd988f9e221d" prot="public" static="no" mutable="no">
+        <type>string []</type>
+        <definition>string [] BigfootDS.FolderStructureWizard.backupFoldersToGenerate</definition>
+        <argsstring></argsstring>
+        <name>backupFoldersToGenerate</name>
+        <initializer>= new string[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" line="49" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_folder_structure_wizard_1aed543b7bf1328425f99b91486d05445e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool BigfootDS.FolderStructureWizard.hasBackedUpList</definition>
+        <argsstring></argsstring>
+        <name>hasBackedUpList</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" line="50" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_folder_structure_wizard_1a70ef745158ad60e0e9e68883b8ac33bf" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BigfootDS.FolderStructureWizard.CreateFolderStructureWizard</definition>
+        <argsstring>()</argsstring>
+        <name>CreateFolderStructureWizard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" line="53" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" bodystart="53" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_folder_structure_wizard_1a6ae5810d64b2061ca8086ca41dfaefe2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.FolderStructureWizard.OnWizardUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnWizardUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" line="62" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" bodystart="62" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_folder_structure_wizard_1a8d3eef2a6be29c9bf00a583bb09caf83" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.FolderStructureWizard.OnWizardCreate</definition>
+        <argsstring>()</argsstring>
+        <name>OnWizardCreate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" line="77" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" bodystart="77" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_folder_structure_wizard_1ac80917383061b203598d3ca3cebcfefc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.FolderStructureWizard.OnWizardOtherButton</definition>
+        <argsstring>()</argsstring>
+        <name>OnWizardOtherButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" line="100" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" bodystart="100" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="41">
+        <label>ScriptableWizard</label>
+      </node>
+      <node id="40">
+        <label>BigfootDS.FolderStructureWizard</label>
+        <link refid="class_bigfoot_d_s_1_1_folder_structure_wizard"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="43">
+        <label>ScriptableWizard</label>
+      </node>
+      <node id="42">
+        <label>BigfootDS.FolderStructureWizard</label>
+        <link refid="class_bigfoot_d_s_1_1_folder_structure_wizard"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" line="38" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/FolderStructureGenerator.cs" bodystart="37" bodyend="105"/>
+    <listofallmembers>
+      <member refid="class_bigfoot_d_s_1_1_folder_structure_wizard_1a1385e0b34ea11fe34b3fdd988f9e221d" prot="public" virt="non-virtual"><scope>BigfootDS::FolderStructureWizard</scope><name>backupFoldersToGenerate</name></member>
+      <member refid="class_bigfoot_d_s_1_1_folder_structure_wizard_1a70ef745158ad60e0e9e68883b8ac33bf" prot="private" virt="non-virtual"><scope>BigfootDS::FolderStructureWizard</scope><name>CreateFolderStructureWizard</name></member>
+      <member refid="class_bigfoot_d_s_1_1_folder_structure_wizard_1a0d8cee92696e97b34af579efaae02ce6" prot="public" virt="non-virtual"><scope>BigfootDS::FolderStructureWizard</scope><name>customFoldersToGenerate</name></member>
+      <member refid="class_bigfoot_d_s_1_1_folder_structure_wizard_1a50ea0ecdc934635b543b889f9b3a3137" prot="public" virt="non-virtual"><scope>BigfootDS::FolderStructureWizard</scope><name>foldersPrefix</name></member>
+      <member refid="class_bigfoot_d_s_1_1_folder_structure_wizard_1aed543b7bf1328425f99b91486d05445e" prot="private" virt="non-virtual"><scope>BigfootDS::FolderStructureWizard</scope><name>hasBackedUpList</name></member>
+      <member refid="class_bigfoot_d_s_1_1_folder_structure_wizard_1a8d3eef2a6be29c9bf00a583bb09caf83" prot="private" virt="non-virtual"><scope>BigfootDS::FolderStructureWizard</scope><name>OnWizardCreate</name></member>
+      <member refid="class_bigfoot_d_s_1_1_folder_structure_wizard_1ac80917383061b203598d3ca3cebcfefc" prot="private" virt="non-virtual"><scope>BigfootDS::FolderStructureWizard</scope><name>OnWizardOtherButton</name></member>
+      <member refid="class_bigfoot_d_s_1_1_folder_structure_wizard_1a6ae5810d64b2061ca8086ca41dfaefe2" prot="private" virt="non-virtual"><scope>BigfootDS::FolderStructureWizard</scope><name>OnWizardUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

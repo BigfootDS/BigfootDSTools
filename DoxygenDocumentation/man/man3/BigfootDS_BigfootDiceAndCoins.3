@@ -1,0 +1,216 @@
+.TH "BigfootDS.BigfootDiceAndCoins" 3 "Mon Aug 6 2018" "Version 1" "BigfootDS Unity Tools" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+BigfootDS.BigfootDiceAndCoins \- The Bigfoot 'Dice And Coins' class handles some quick-to-use functions for dice rolls and coin flips\&. Twenty-sided dice, D100s, coins, and even custom-sized dice are supported here\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBNonStaticD20Roll\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static int \fBRandomD20\fP ()"
+.br
+.RI "Generate a result from a traditional random 20-sided dice roll\&. "
+.ti -1c
+.RI "static int \fBRandomD20\fP (int maximumFudge)"
+.br
+.RI "Generate a result from a traditional random 20-sided dice roll\&. Parameter for positive fudging is available\&. "
+.ti -1c
+.RI "static int \fBRandomD6\fP ()"
+.br
+.RI "Generate a result from a traditional random 6-sided dice roll\&. "
+.ti -1c
+.RI "static int \fBRandomD6\fP (int maximumFudge)"
+.br
+.RI "Generate a result from a traditional random 6-sided dice roll\&. Parameter for positive fudging is available\&. "
+.ti -1c
+.RI "static int \fBRandomD12\fP ()"
+.br
+.RI "Generate a result from a traditional random 12-sided dice roll\&. "
+.ti -1c
+.RI "static int \fBRandomD12\fP (int maximumFudge)"
+.br
+.RI "Generate a result from a traditional random 12-sided dice roll\&. Parameter for positive fudging is available\&. "
+.ti -1c
+.RI "static int \fBRandomD10\fP ()"
+.br
+.RI "Generate a result from a traditional random 10-sided dice roll\&. "
+.ti -1c
+.RI "static int \fBRandomD10\fP (int maximumFudge)"
+.br
+.RI "Generate a result from a traditional random 10-sided dice roll\&. Parameter for positive fudging is available\&. "
+.ti -1c
+.RI "static int \fBRandomD100\fP ()"
+.br
+.RI "Generate a result from a traditional random 100-sided dice roll\&. "
+.ti -1c
+.RI "static int \fBRandomD100\fP (int maximumFudge)"
+.br
+.RI "Generate a result from a traditional random 100-sided dice roll\&. Parameter for positive fudging is available\&. "
+.ti -1c
+.RI "static int \fBRandomD2\fP ()"
+.br
+.RI "Generate a result from a traditional random 2-sided dice roll\&. "
+.ti -1c
+.RI "static int \fBRandomD2\fP (int maximumFudge)"
+.br
+.RI "Generate a result from a traditional random 2-sided dice roll\&. Parameter for positive fudging is available\&. "
+.ti -1c
+.RI "static string \fBCoinFlip\fP ()"
+.br
+.RI "Flip a coin! Get 'Heads' or 'Tails' as the result\&. "
+.ti -1c
+.RI "static int \fBRandomDiceValue\fP (int diceSides)"
+.br
+.RI "Generate a result from custom X-sided dice roll\&. "
+.ti -1c
+.RI "static int \fBRandomDiceValue\fP (int diceSides, int maximumFudge)"
+.br
+.RI "Generate a result from custom X-sided dice roll\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+The Bigfoot 'Dice And Coins' class handles some quick-to-use functions for dice rolls and coin flips\&. Twenty-sided dice, D100s, coins, and even custom-sized dice are supported here\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static string BigfootDS\&.BigfootDiceAndCoins\&.CoinFlip ()\fC [static]\fP"
+
+.PP
+Flip a coin! Get 'Heads' or 'Tails' as the result\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+
+.RE
+.PP
+
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomD10 ()\fC [static]\fP"
+
+.PP
+Generate a result from a traditional random 10-sided dice roll\&. 
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomD10 (int maximumFudge)\fC [static]\fP"
+
+.PP
+Generate a result from a traditional random 10-sided dice roll\&. Parameter for positive fudging is available\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaximumFudge\fP The maximum amount a dice roll can be increased by due to 'fudging'\&.
+.RE
+.PP
+
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomD100 ()\fC [static]\fP"
+
+.PP
+Generate a result from a traditional random 100-sided dice roll\&. 
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomD100 (int maximumFudge)\fC [static]\fP"
+
+.PP
+Generate a result from a traditional random 100-sided dice roll\&. Parameter for positive fudging is available\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaximumFudge\fP The maximum amount a dice roll can be increased by due to 'fudging'\&.
+.RE
+.PP
+
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomD12 ()\fC [static]\fP"
+
+.PP
+Generate a result from a traditional random 12-sided dice roll\&. 
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomD12 (int maximumFudge)\fC [static]\fP"
+
+.PP
+Generate a result from a traditional random 12-sided dice roll\&. Parameter for positive fudging is available\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaximumFudge\fP The maximum amount a dice roll can be increased by due to 'fudging'\&.
+.RE
+.PP
+
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomD2 ()\fC [static]\fP"
+
+.PP
+Generate a result from a traditional random 2-sided dice roll\&. 
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomD2 (int maximumFudge)\fC [static]\fP"
+
+.PP
+Generate a result from a traditional random 2-sided dice roll\&. Parameter for positive fudging is available\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaximumFudge\fP The maximum amount a dice roll can be increased by due to 'fudging'\&.
+.RE
+.PP
+
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomD20 ()\fC [static]\fP"
+
+.PP
+Generate a result from a traditional random 20-sided dice roll\&. 
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomD20 (int maximumFudge)\fC [static]\fP"
+
+.PP
+Generate a result from a traditional random 20-sided dice roll\&. Parameter for positive fudging is available\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaximumFudge\fP The maximum amount a dice roll can be increased by due to 'fudging'\&.
+.RE
+.PP
+
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomD6 ()\fC [static]\fP"
+
+.PP
+Generate a result from a traditional random 6-sided dice roll\&. 
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomD6 (int maximumFudge)\fC [static]\fP"
+
+.PP
+Generate a result from a traditional random 6-sided dice roll\&. Parameter for positive fudging is available\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaximumFudge\fP The maximum amount a dice roll can be increased by due to 'fudging'\&.
+.RE
+.PP
+
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomDiceValue (int diceSides)\fC [static]\fP"
+
+.PP
+Generate a result from custom X-sided dice roll\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIdiceSides\fP Specify the number of sides that your custom dice will have\&.
+.RE
+.PP
+
+.SS "static int BigfootDS\&.BigfootDiceAndCoins\&.RandomDiceValue (int diceSides, int maximumFudge)\fC [static]\fP"
+
+.PP
+Generate a result from custom X-sided dice roll\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIdiceSides\fP Specify the number of sides that your custom dice will have\&.
+.br
+\fImaximumFudge\fP The maximum amount a dice roll can be increased by due to 'fudging'\&.
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for BigfootDS Unity Tools from the source code\&.

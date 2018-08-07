@@ -1,0 +1,155 @@
+\hypertarget{class_scene_view_actor_camera}{}\section{Scene\+View\+Actor\+Camera Class Reference}
+\label{class_scene_view_actor_camera}\index{Scene\+View\+Actor\+Camera@{Scene\+View\+Actor\+Camera}}
+Inheritance diagram for Scene\+View\+Actor\+Camera\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_scene_view_actor_camera}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_scene_view_actor_camera_a99fc940c929ecd0be983f6d5f606c7df}\label{class_scene_view_actor_camera_a99fc940c929ecd0be983f6d5f606c7df}} 
+static void {\bfseries Quick\+Move\+Main\+Cam\+To\+Scene\+Cam} ()
+\item 
+\mbox{\Hypertarget{class_scene_view_actor_camera_a2c008ee53d553b0ff4ed85f5c02e8319}\label{class_scene_view_actor_camera_a2c008ee53d553b0ff4ed85f5c02e8319}} 
+static void {\bfseries Reset\+Main\+Cam\+To\+World\+Zero} ()
+\item 
+\mbox{\Hypertarget{class_scene_view_actor_camera_a64bdb8bab8474234aa7d7feaca807eee}\label{class_scene_view_actor_camera_a64bdb8bab8474234aa7d7feaca807eee}} 
+static void {\bfseries Reset\+Main\+Cam\+To\+Unity\+Default} ()
+\item 
+static void \mbox{\hyperlink{class_scene_view_actor_camera_a3e544b9e43a8dba5304140b3661752b1}{Match\+Main\+Camera\+To\+Values}} ()
+\begin{DoxyCompactList}\small\item\em This overload will force the Main Camera to match the Scene View camera. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_scene_view_actor_camera_a77349efed7b218f0c931926186cecd4e}{Match\+Main\+Camera\+To\+Values}} (Vector3 new\+Position, Quaternion new\+Rotation, Vector3 new\+Scale, bool use\+Global\+Space)
+\begin{DoxyCompactList}\small\item\em Make the scene\textquotesingle{}s Main Camera move to specified values. This overload lets you specify every value, and takes in the rotation values as a Quaternion instead of a Vector3. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_scene_view_actor_camera_aceebf34bad9730f98c6e04fc264883be}{Match\+Main\+Camera\+To\+Values}} (Vector3 new\+Position, Quaternion new\+Rotation, Vector3 new\+Scale)
+\begin{DoxyCompactList}\small\item\em Make the scene\textquotesingle{}s Main Camera move to specified values. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion. Defaults to modifying position \& rotation in worldspace. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_scene_view_actor_camera_ae248bbbefe424aabc56875b4f7bf942d}{Match\+Main\+Camera\+To\+Values}} (Vector3 new\+Position, Vector3 new\+Rotation, Vector3 new\+Scale, bool use\+Global\+Space)
+\begin{DoxyCompactList}\small\item\em Make the scene\textquotesingle{}s Main Camera move to specified values. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_scene_view_actor_camera_a66ac86cd938970082513231063316872}{Match\+Main\+Camera\+To\+Values}} (Vector3 new\+Position, Vector3 new\+Rotation, Vector3 new\+Scale)
+\begin{DoxyCompactList}\small\item\em Make the scene\textquotesingle{}s Main Camera move to specified values. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion. Defaults to modifying position \& rotation in worldspace. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_scene_view_actor_camera_a6803c2185afa5fb555dd64eafdab31b6}{Match\+Main\+Camera\+To\+Values}} (bool zero\+The\+Camera, bool reset\+To\+Unity\+Default)
+\begin{DoxyCompactList}\small\item\em Make the scene\textquotesingle{}s Main Camera move to specified values. This overload will let you choose between one of two options\+: either reset the Main Camera to the world-\/zero, or reset it to Unity\textquotesingle{}s default values. This overload will fail if both are true or if both are false. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_scene_view_actor_camera_a0de0dd5d70d8e78328be80c326882725}\label{class_scene_view_actor_camera_a0de0dd5d70d8e78328be80c326882725}} 
+static bool {\bfseries Is\+Actor\+Cam\+Enabled}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_scene_view_actor_camera_a3e544b9e43a8dba5304140b3661752b1}\label{class_scene_view_actor_camera_a3e544b9e43a8dba5304140b3661752b1}} 
+\index{Scene\+View\+Actor\+Camera@{Scene\+View\+Actor\+Camera}!Match\+Main\+Camera\+To\+Values@{Match\+Main\+Camera\+To\+Values}}
+\index{Match\+Main\+Camera\+To\+Values@{Match\+Main\+Camera\+To\+Values}!Scene\+View\+Actor\+Camera@{Scene\+View\+Actor\+Camera}}
+\subsubsection{\texorpdfstring{Match\+Main\+Camera\+To\+Values()}{MatchMainCameraToValues()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily static void Scene\+View\+Actor\+Camera.\+Match\+Main\+Camera\+To\+Values (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This overload will force the Main Camera to match the Scene View camera. 
+
+\mbox{\Hypertarget{class_scene_view_actor_camera_a77349efed7b218f0c931926186cecd4e}\label{class_scene_view_actor_camera_a77349efed7b218f0c931926186cecd4e}} 
+\index{Scene\+View\+Actor\+Camera@{Scene\+View\+Actor\+Camera}!Match\+Main\+Camera\+To\+Values@{Match\+Main\+Camera\+To\+Values}}
+\index{Match\+Main\+Camera\+To\+Values@{Match\+Main\+Camera\+To\+Values}!Scene\+View\+Actor\+Camera@{Scene\+View\+Actor\+Camera}}
+\subsubsection{\texorpdfstring{Match\+Main\+Camera\+To\+Values()}{MatchMainCameraToValues()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily static void Scene\+View\+Actor\+Camera.\+Match\+Main\+Camera\+To\+Values (\begin{DoxyParamCaption}\item[{Vector3}]{new\+Position,  }\item[{Quaternion}]{new\+Rotation,  }\item[{Vector3}]{new\+Scale,  }\item[{bool}]{use\+Global\+Space }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Make the scene\textquotesingle{}s Main Camera move to specified values. This overload lets you specify every value, and takes in the rotation values as a Quaternion instead of a Vector3. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Position} & New position coordinates.\\
+\hline
+{\em new\+Rotation} & New rotation values\\
+\hline
+{\em new\+Scale} & New scale multiplier values.\\
+\hline
+{\em use\+Global\+Space} & If this is true, all values above will be applied in world/global space.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_scene_view_actor_camera_aceebf34bad9730f98c6e04fc264883be}\label{class_scene_view_actor_camera_aceebf34bad9730f98c6e04fc264883be}} 
+\index{Scene\+View\+Actor\+Camera@{Scene\+View\+Actor\+Camera}!Match\+Main\+Camera\+To\+Values@{Match\+Main\+Camera\+To\+Values}}
+\index{Match\+Main\+Camera\+To\+Values@{Match\+Main\+Camera\+To\+Values}!Scene\+View\+Actor\+Camera@{Scene\+View\+Actor\+Camera}}
+\subsubsection{\texorpdfstring{Match\+Main\+Camera\+To\+Values()}{MatchMainCameraToValues()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily static void Scene\+View\+Actor\+Camera.\+Match\+Main\+Camera\+To\+Values (\begin{DoxyParamCaption}\item[{Vector3}]{new\+Position,  }\item[{Quaternion}]{new\+Rotation,  }\item[{Vector3}]{new\+Scale }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Make the scene\textquotesingle{}s Main Camera move to specified values. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion. Defaults to modifying position \& rotation in worldspace. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Position} & New position coordinates.\\
+\hline
+{\em new\+Rotation} & New rotation values\\
+\hline
+{\em new\+Scale} & New scale multiplier values.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_scene_view_actor_camera_ae248bbbefe424aabc56875b4f7bf942d}\label{class_scene_view_actor_camera_ae248bbbefe424aabc56875b4f7bf942d}} 
+\index{Scene\+View\+Actor\+Camera@{Scene\+View\+Actor\+Camera}!Match\+Main\+Camera\+To\+Values@{Match\+Main\+Camera\+To\+Values}}
+\index{Match\+Main\+Camera\+To\+Values@{Match\+Main\+Camera\+To\+Values}!Scene\+View\+Actor\+Camera@{Scene\+View\+Actor\+Camera}}
+\subsubsection{\texorpdfstring{Match\+Main\+Camera\+To\+Values()}{MatchMainCameraToValues()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily static void Scene\+View\+Actor\+Camera.\+Match\+Main\+Camera\+To\+Values (\begin{DoxyParamCaption}\item[{Vector3}]{new\+Position,  }\item[{Vector3}]{new\+Rotation,  }\item[{Vector3}]{new\+Scale,  }\item[{bool}]{use\+Global\+Space }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Make the scene\textquotesingle{}s Main Camera move to specified values. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Position} & New position coordinates.\\
+\hline
+{\em new\+Rotation} & New rotation values\\
+\hline
+{\em new\+Scale} & New scale multiplier values.\\
+\hline
+{\em use\+Global\+Space} & If this is true, all values above will be applied in world/global space.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_scene_view_actor_camera_a66ac86cd938970082513231063316872}\label{class_scene_view_actor_camera_a66ac86cd938970082513231063316872}} 
+\index{Scene\+View\+Actor\+Camera@{Scene\+View\+Actor\+Camera}!Match\+Main\+Camera\+To\+Values@{Match\+Main\+Camera\+To\+Values}}
+\index{Match\+Main\+Camera\+To\+Values@{Match\+Main\+Camera\+To\+Values}!Scene\+View\+Actor\+Camera@{Scene\+View\+Actor\+Camera}}
+\subsubsection{\texorpdfstring{Match\+Main\+Camera\+To\+Values()}{MatchMainCameraToValues()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily static void Scene\+View\+Actor\+Camera.\+Match\+Main\+Camera\+To\+Values (\begin{DoxyParamCaption}\item[{Vector3}]{new\+Position,  }\item[{Vector3}]{new\+Rotation,  }\item[{Vector3}]{new\+Scale }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Make the scene\textquotesingle{}s Main Camera move to specified values. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion. Defaults to modifying position \& rotation in worldspace. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Position} & New position coordinates.\\
+\hline
+{\em new\+Rotation} & New rotation values\\
+\hline
+{\em new\+Scale} & New scale multiplier values.\\
+\hline
+{\em use\+Global\+Space} & If this is true, all values above will be applied in world/global space.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_scene_view_actor_camera_a6803c2185afa5fb555dd64eafdab31b6}\label{class_scene_view_actor_camera_a6803c2185afa5fb555dd64eafdab31b6}} 
+\index{Scene\+View\+Actor\+Camera@{Scene\+View\+Actor\+Camera}!Match\+Main\+Camera\+To\+Values@{Match\+Main\+Camera\+To\+Values}}
+\index{Match\+Main\+Camera\+To\+Values@{Match\+Main\+Camera\+To\+Values}!Scene\+View\+Actor\+Camera@{Scene\+View\+Actor\+Camera}}
+\subsubsection{\texorpdfstring{Match\+Main\+Camera\+To\+Values()}{MatchMainCameraToValues()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily static void Scene\+View\+Actor\+Camera.\+Match\+Main\+Camera\+To\+Values (\begin{DoxyParamCaption}\item[{bool}]{zero\+The\+Camera,  }\item[{bool}]{reset\+To\+Unity\+Default }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Make the scene\textquotesingle{}s Main Camera move to specified values. This overload will let you choose between one of two options\+: either reset the Main Camera to the world-\/zero, or reset it to Unity\textquotesingle{}s default values. This overload will fail if both are true or if both are false. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em zero\+The\+Camera} & Reset the Main Camera\textquotesingle{}s position \& rotation to Vector3.\+zero, and scale of Vector3.\+one.\\
+\hline
+{\em reset\+To\+Unity\+Default} & Reset the Main Camera\textquotesingle{}s position to X0, Y1, Z-\/10, rotation to Vector3.\+zero, and scale to Vector3.\+one.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Bigfoot\+D\+S/\+\_\+\+Common/\+Scripts/\+Editor/Scene\+View\+Actor\+Camera.\+cs\end{DoxyCompactItemize}

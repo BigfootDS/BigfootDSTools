@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_bigfoot_d_s_1_1_scene_basics_generator" kind="class" language="C#" prot="public">
+    <compoundname>BigfootDS::SceneBasicsGenerator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_scene_basics_generator_1a977290e611b430b3f8d18ad39dd2d63c" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BigfootDS.SceneBasicsGenerator.objectsToSpawn</definition>
+        <argsstring></argsstring>
+        <name>objectsToSpawn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="13" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_scene_basics_generator_1aa1738e0af674139eb8956e3d4796c665" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.SceneBasicsGenerator.otsName</definition>
+        <argsstring></argsstring>
+        <name>otsName</name>
+        <initializer>= &quot;New GameObject&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="14" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_scene_basics_generator_1a75a4abac9fa3686c027eae78527e880d" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 BigfootDS.SceneBasicsGenerator.otsPosition</definition>
+        <argsstring></argsstring>
+        <name>otsPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="15" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_scene_basics_generator_1af61d510b4d0620532443d89c21d96ebb" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 BigfootDS.SceneBasicsGenerator.otsRotation</definition>
+        <argsstring></argsstring>
+        <name>otsRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="16" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_scene_basics_generator_1a6fcfb33b239e0245687faaac690ccc66" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 BigfootDS.SceneBasicsGenerator.otsScale</definition>
+        <argsstring></argsstring>
+        <name>otsScale</name>
+        <initializer>= Vector3.one</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="17" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_scene_basics_generator_1a617e074c4a03c936ff9c8fc9110c1adc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool BigfootDS.SceneBasicsGenerator.otsStatic</definition>
+        <argsstring></argsstring>
+        <name>otsStatic</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="20" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_scene_basics_generator_1a1f4620e2c233b9797e0d6fe6c4096726" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.SceneBasicsGenerator.otsTag</definition>
+        <argsstring></argsstring>
+        <name>otsTag</name>
+        <initializer>= &quot;Untagged&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="18" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_scene_basics_generator_1a7e34bdfbf78886043795bcdbbaaa3f1c" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int BigfootDS.SceneBasicsGenerator.otsLayer</definition>
+        <argsstring></argsstring>
+        <name>otsLayer</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="19" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_scene_basics_generator_1a7ab1feb4cc377d74fc6c3115430f2972" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool BigfootDS.SceneBasicsGenerator.coreVariablesShowPosition</definition>
+        <argsstring></argsstring>
+        <name>coreVariablesShowPosition</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="23" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_scene_basics_generator_1a9c28d7264516c7cbcaa45237fc755422" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.SceneBasicsGenerator.coreVariablesFoldoutLabel</definition>
+        <argsstring></argsstring>
+        <name>coreVariablesFoldoutLabel</name>
+        <initializer>= &quot;Core Variables&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="24" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_scene_basics_generator_1a68ba542d79f5c1e315fdd0312b7f70a5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool BigfootDS.SceneBasicsGenerator.extraComponentsVariables</definition>
+        <argsstring></argsstring>
+        <name>extraComponentsVariables</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="26" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_scene_basics_generator_1a10f1e8b4314098b92ae502704c92c40d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.SceneBasicsGenerator.extraComponentsFoldoutLabel</definition>
+        <argsstring></argsstring>
+        <name>extraComponentsFoldoutLabel</name>
+        <initializer>= &quot;Extra Components&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="27" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_scene_basics_generator_1a7658ebc40708b897c6f4685dcf4ec5f9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BigfootDS.SceneBasicsGenerator.ShowWindow</definition>
+        <argsstring>()</argsstring>
+        <name>ShowWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="30" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_scene_basics_generator_1aac45340d427dac56f5ee46439413f96e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.SceneBasicsGenerator.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="36" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="36" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="44">
+        <label>BigfootDS.SceneBasicsGenerator</label>
+        <link refid="class_bigfoot_d_s_1_1_scene_basics_generator"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>EditorWindow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="46">
+        <label>BigfootDS.SceneBasicsGenerator</label>
+        <link refid="class_bigfoot_d_s_1_1_scene_basics_generator"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>EditorWindow</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" line="11" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/Editor/SceneBasicsGenerator.cs" bodystart="10" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1a9c28d7264516c7cbcaa45237fc755422" prot="private" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>coreVariablesFoldoutLabel</name></member>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1a7ab1feb4cc377d74fc6c3115430f2972" prot="private" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>coreVariablesShowPosition</name></member>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1a10f1e8b4314098b92ae502704c92c40d" prot="private" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>extraComponentsFoldoutLabel</name></member>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1a68ba542d79f5c1e315fdd0312b7f70a5" prot="private" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>extraComponentsVariables</name></member>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1a977290e611b430b3f8d18ad39dd2d63c" prot="public" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>objectsToSpawn</name></member>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1aac45340d427dac56f5ee46439413f96e" prot="private" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>OnGUI</name></member>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1a7e34bdfbf78886043795bcdbbaaa3f1c" prot="private" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>otsLayer</name></member>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1aa1738e0af674139eb8956e3d4796c665" prot="public" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>otsName</name></member>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1a75a4abac9fa3686c027eae78527e880d" prot="public" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>otsPosition</name></member>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1af61d510b4d0620532443d89c21d96ebb" prot="public" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>otsRotation</name></member>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1a6fcfb33b239e0245687faaac690ccc66" prot="public" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>otsScale</name></member>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1a617e074c4a03c936ff9c8fc9110c1adc" prot="public" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>otsStatic</name></member>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1a1f4620e2c233b9797e0d6fe6c4096726" prot="private" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>otsTag</name></member>
+      <member refid="class_bigfoot_d_s_1_1_scene_basics_generator_1a7658ebc40708b897c6f4685dcf4ec5f9" prot="public" virt="non-virtual"><scope>BigfootDS::SceneBasicsGenerator</scope><name>ShowWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_5dfb1406544ca70158d9691d4b723870" kind="dir">
+    <compoundname>Assets/BigfootDS/_Common/Scripts/Editor</compoundname>
+    <innerfile refid="_folder_structure_generator_8cs">FolderStructureGenerator.cs</innerfile>
+    <innerfile refid="_scene_basics_generator_8cs">SceneBasicsGenerator.cs</innerfile>
+    <innerfile refid="_scene_view_actor_camera_8cs">SceneViewActorCamera.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/BigfootDS/_Common/Scripts/Editor/"/>
+  </compounddef>
+</doxygen>

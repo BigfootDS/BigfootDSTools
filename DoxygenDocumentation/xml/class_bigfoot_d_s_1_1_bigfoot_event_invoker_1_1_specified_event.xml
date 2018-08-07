@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_bigfoot_d_s_1_1_bigfoot_event_invoker_1_1_specified_event" kind="class" language="C#" prot="public">
+    <compoundname>BigfootDS::BigfootEventInvoker::SpecifiedEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEvent</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="64">
+        <label>BigfootDS.BigfootEventInvoker.SpecifiedEvent</label>
+        <link refid="class_bigfoot_d_s_1_1_bigfoot_event_invoker_1_1_specified_event"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>UnityEvent</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="66">
+        <label>BigfootDS.BigfootEventInvoker.SpecifiedEvent</label>
+        <link refid="class_bigfoot_d_s_1_1_bigfoot_event_invoker_1_1_specified_event"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>UnityEvent</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/BigfootDS/_Common/Scripts/BigfootEventInvoker.cs" line="13" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootEventInvoker.cs" bodystart="13" bodyend="13"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

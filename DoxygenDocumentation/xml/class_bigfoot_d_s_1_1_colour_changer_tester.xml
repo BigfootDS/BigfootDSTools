@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_bigfoot_d_s_1_1_colour_changer_tester" kind="class" language="C#" prot="public">
+    <compoundname>BigfootDS::ColourChangerTester</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_colour_changer_tester_1ab7fcdc500194580a3d2881be60ba2079" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_bigfoot_d_s_1abbe5e74a13ceee1200fe8df86775491b" kindref="member">ColourType</ref></type>
+        <definition>ColourType BigfootDS.ColourChangerTester.thisColourType</definition>
+        <argsstring></argsstring>
+        <name>thisColourType</name>
+        <briefdescription>
+<para>The main colour types of the built-in web colour materials. Should be Default, Matte and Metallic! </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" line="18" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_colour_changer_tester_1aa4dfb28508c536b6aeb95261415c64a6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BigfootDS.ColourChangerTester.currentColourIndex</definition>
+        <argsstring></argsstring>
+        <name>currentColourIndex</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Index value used to mark which current web colour material is in use. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" line="23" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_colour_changer_tester_1a7ac564ac5150e1cfadf622d9fc802e36" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BigfootDS.ColourChangerTester.currentMaterialName</definition>
+        <argsstring></argsstring>
+        <name>currentMaterialName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" line="26" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_colour_changer_tester_1a0dc48d1ef7ec4251172cd3a8f9469f7f" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text BigfootDS.ColourChangerTester.materialNameDisplayer</definition>
+        <argsstring></argsstring>
+        <name>materialNameDisplayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" line="27" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_colour_changer_tester_1a9cec4157c4c761d39c39f8071331dd30" prot="private" static="no" mutable="no">
+        <type>Renderer</type>
+        <definition>Renderer BigfootDS.ColourChangerTester.thisRenderer</definition>
+        <argsstring></argsstring>
+        <name>thisRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" line="25" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_colour_changer_tester_1a8d8e70c74b8cfa73c9ad55606d848a68" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.ColourChangerTester.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" line="29" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_colour_changer_tester_1a63f360d221cd00cc6ee0d7149aa203c7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.ColourChangerTester.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" line="33" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" bodystart="33" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_colour_changer_tester_1a062a15842af6c9e67840e8827ea345ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.ColourChangerTester.SelectRandomColour</definition>
+        <argsstring>()</argsstring>
+        <name>SelectRandomColour</name>
+        <briefdescription>
+<para>Selects a random colour from the appropriate <ref refid="class_singleton_scriptable_object" kindref="compound">SingletonScriptableObject</ref> that contains references to web-friendly colours. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" line="45" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" bodystart="45" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_colour_changer_tester_1a723b8d8bcccfccd194319e4ea608e821" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.ColourChangerTester.ColourAssigner</definition>
+        <argsstring>()</argsstring>
+        <name>ColourAssigner</name>
+        <briefdescription>
+<para>Clamps the currentColourIndex value to fit within an appropritate material list and then assigns that material to the object containing this script. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" line="69" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" bodystart="69" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_colour_changer_tester_1af15ff93daa349ad267667db3f88f18c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.ColourChangerTester.SelectPreviousColour</definition>
+        <argsstring>()</argsstring>
+        <name>SelectPreviousColour</name>
+        <briefdescription>
+<para>Changes the colour index value and immediately calls the ColourAssigner function to change the colour of this object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" line="111" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_colour_changer_tester_1ae480b9548f5407a651999676d1724da2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.ColourChangerTester.SelectNextColour</definition>
+        <argsstring>()</argsstring>
+        <name>SelectNextColour</name>
+        <briefdescription>
+<para>Changes the colour index value and immediately calls the ColourAssigner function to change the colour of this object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" line="120" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" bodystart="120" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="32">
+        <label>BigfootDS.ColourChangerTester</label>
+        <link refid="class_bigfoot_d_s_1_1_colour_changer_tester"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="34">
+        <label>BigfootDS.ColourChangerTester</label>
+        <link refid="class_bigfoot_d_s_1_1_colour_changer_tester"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" line="13" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" bodystart="13" bodyend="126"/>
+    <listofallmembers>
+      <member refid="class_bigfoot_d_s_1_1_colour_changer_tester_1a8d8e70c74b8cfa73c9ad55606d848a68" prot="private" virt="non-virtual"><scope>BigfootDS::ColourChangerTester</scope><name>Awake</name></member>
+      <member refid="class_bigfoot_d_s_1_1_colour_changer_tester_1a723b8d8bcccfccd194319e4ea608e821" prot="public" virt="non-virtual"><scope>BigfootDS::ColourChangerTester</scope><name>ColourAssigner</name></member>
+      <member refid="class_bigfoot_d_s_1_1_colour_changer_tester_1aa4dfb28508c536b6aeb95261415c64a6" prot="public" virt="non-virtual"><scope>BigfootDS::ColourChangerTester</scope><name>currentColourIndex</name></member>
+      <member refid="class_bigfoot_d_s_1_1_colour_changer_tester_1a7ac564ac5150e1cfadf622d9fc802e36" prot="public" virt="non-virtual"><scope>BigfootDS::ColourChangerTester</scope><name>currentMaterialName</name></member>
+      <member refid="class_bigfoot_d_s_1_1_colour_changer_tester_1a0dc48d1ef7ec4251172cd3a8f9469f7f" prot="public" virt="non-virtual"><scope>BigfootDS::ColourChangerTester</scope><name>materialNameDisplayer</name></member>
+      <member refid="class_bigfoot_d_s_1_1_colour_changer_tester_1ae480b9548f5407a651999676d1724da2" prot="public" virt="non-virtual"><scope>BigfootDS::ColourChangerTester</scope><name>SelectNextColour</name></member>
+      <member refid="class_bigfoot_d_s_1_1_colour_changer_tester_1af15ff93daa349ad267667db3f88f18c3" prot="public" virt="non-virtual"><scope>BigfootDS::ColourChangerTester</scope><name>SelectPreviousColour</name></member>
+      <member refid="class_bigfoot_d_s_1_1_colour_changer_tester_1a062a15842af6c9e67840e8827ea345ee" prot="public" virt="non-virtual"><scope>BigfootDS::ColourChangerTester</scope><name>SelectRandomColour</name></member>
+      <member refid="class_bigfoot_d_s_1_1_colour_changer_tester_1ab7fcdc500194580a3d2881be60ba2079" prot="public" virt="non-virtual"><scope>BigfootDS::ColourChangerTester</scope><name>thisColourType</name></member>
+      <member refid="class_bigfoot_d_s_1_1_colour_changer_tester_1a9cec4157c4c761d39c39f8071331dd30" prot="private" virt="non-virtual"><scope>BigfootDS::ColourChangerTester</scope><name>thisRenderer</name></member>
+      <member refid="class_bigfoot_d_s_1_1_colour_changer_tester_1a63f360d221cd00cc6ee0d7149aa203c7" prot="private" virt="non-virtual"><scope>BigfootDS::ColourChangerTester</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

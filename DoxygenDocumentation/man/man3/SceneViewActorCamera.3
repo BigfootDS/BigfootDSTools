@@ -1,0 +1,143 @@
+.TH "SceneViewActorCamera" 3 "Mon Aug 6 2018" "Version 1" "BigfootDS Unity Tools" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SceneViewActorCamera
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBQuickMoveMainCamToSceneCam\fP ()"
+.br
+.ti -1c
+.RI "static void \fBResetMainCamToWorldZero\fP ()"
+.br
+.ti -1c
+.RI "static void \fBResetMainCamToUnityDefault\fP ()"
+.br
+.ti -1c
+.RI "static void \fBMatchMainCameraToValues\fP ()"
+.br
+.RI "This overload will force the Main Camera to match the Scene View camera\&. "
+.ti -1c
+.RI "static void \fBMatchMainCameraToValues\fP (Vector3 newPosition, Quaternion newRotation, Vector3 newScale, bool useGlobalSpace)"
+.br
+.RI "Make the scene's Main Camera move to specified values\&. This overload lets you specify every value, and takes in the rotation values as a Quaternion instead of a Vector3\&. "
+.ti -1c
+.RI "static void \fBMatchMainCameraToValues\fP (Vector3 newPosition, Quaternion newRotation, Vector3 newScale)"
+.br
+.RI "Make the scene's Main Camera move to specified values\&. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion\&. Defaults to modifying position & rotation in worldspace\&. "
+.ti -1c
+.RI "static void \fBMatchMainCameraToValues\fP (Vector3 newPosition, Vector3 newRotation, Vector3 newScale, bool useGlobalSpace)"
+.br
+.RI "Make the scene's Main Camera move to specified values\&. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion\&. "
+.ti -1c
+.RI "static void \fBMatchMainCameraToValues\fP (Vector3 newPosition, Vector3 newRotation, Vector3 newScale)"
+.br
+.RI "Make the scene's Main Camera move to specified values\&. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion\&. Defaults to modifying position & rotation in worldspace\&. "
+.ti -1c
+.RI "static void \fBMatchMainCameraToValues\fP (bool zeroTheCamera, bool resetToUnityDefault)"
+.br
+.RI "Make the scene's Main Camera move to specified values\&. This overload will let you choose between one of two options: either reset the Main Camera to the world-zero, or reset it to Unity's default values\&. This overload will fail if both are true or if both are false\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBIsActorCamEnabled\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "static void SceneViewActorCamera\&.MatchMainCameraToValues ()\fC [static]\fP"
+
+.PP
+This overload will force the Main Camera to match the Scene View camera\&. 
+.SS "static void SceneViewActorCamera\&.MatchMainCameraToValues (Vector3 newPosition, Quaternion newRotation, Vector3 newScale, bool useGlobalSpace)\fC [static]\fP"
+
+.PP
+Make the scene's Main Camera move to specified values\&. This overload lets you specify every value, and takes in the rotation values as a Quaternion instead of a Vector3\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInewPosition\fP New position coordinates\&.
+.br
+\fInewRotation\fP New rotation values
+.br
+\fInewScale\fP New scale multiplier values\&.
+.br
+\fIuseGlobalSpace\fP If this is true, all values above will be applied in world/global space\&.
+.RE
+.PP
+
+.SS "static void SceneViewActorCamera\&.MatchMainCameraToValues (Vector3 newPosition, Quaternion newRotation, Vector3 newScale)\fC [static]\fP"
+
+.PP
+Make the scene's Main Camera move to specified values\&. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion\&. Defaults to modifying position & rotation in worldspace\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInewPosition\fP New position coordinates\&.
+.br
+\fInewRotation\fP New rotation values
+.br
+\fInewScale\fP New scale multiplier values\&.
+.RE
+.PP
+
+.SS "static void SceneViewActorCamera\&.MatchMainCameraToValues (Vector3 newPosition, Vector3 newRotation, Vector3 newScale, bool useGlobalSpace)\fC [static]\fP"
+
+.PP
+Make the scene's Main Camera move to specified values\&. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInewPosition\fP New position coordinates\&.
+.br
+\fInewRotation\fP New rotation values
+.br
+\fInewScale\fP New scale multiplier values\&.
+.br
+\fIuseGlobalSpace\fP If this is true, all values above will be applied in world/global space\&.
+.RE
+.PP
+
+.SS "static void SceneViewActorCamera\&.MatchMainCameraToValues (Vector3 newPosition, Vector3 newRotation, Vector3 newScale)\fC [static]\fP"
+
+.PP
+Make the scene's Main Camera move to specified values\&. This overload lets you specify every value, and takes in the rotation values as a Vector3 instead of a Quaternion\&. Defaults to modifying position & rotation in worldspace\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInewPosition\fP New position coordinates\&.
+.br
+\fInewRotation\fP New rotation values
+.br
+\fInewScale\fP New scale multiplier values\&.
+.br
+\fIuseGlobalSpace\fP If this is true, all values above will be applied in world/global space\&.
+.RE
+.PP
+
+.SS "static void SceneViewActorCamera\&.MatchMainCameraToValues (bool zeroTheCamera, bool resetToUnityDefault)\fC [static]\fP"
+
+.PP
+Make the scene's Main Camera move to specified values\&. This overload will let you choose between one of two options: either reset the Main Camera to the world-zero, or reset it to Unity's default values\&. This overload will fail if both are true or if both are false\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIzeroTheCamera\fP Reset the Main Camera's position & rotation to Vector3\&.zero, and scale of Vector3\&.one\&.
+.br
+\fIresetToUnityDefault\fP Reset the Main Camera's position to X0, Y1, Z-10, rotation to Vector3\&.zero, and scale to Vector3\&.one\&.
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for BigfootDS Unity Tools from the source code\&.

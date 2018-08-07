@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_3b26a0b5a27caa0a4174186e1a25ed19" kind="dir">
+    <compoundname>Assets/BigfootDS/_Common</compoundname>
+    <innerdir refid="dir_56a44e279ba22edd74d5c15e2e14709b">Assets/BigfootDS/_Common/Scripts</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/BigfootDS/_Common/"/>
+  </compounddef>
+</doxygen>

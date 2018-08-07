@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins" kind="class" language="C#" prot="public">
+    <compoundname>BigfootDS::BigfootDiceAndCoins</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1ac403a8693f203330cfd7a24aa16337cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.BigfootDiceAndCoins.NonStaticD20Roll</definition>
+        <argsstring>()</argsstring>
+        <name>NonStaticD20Roll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="14" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="14" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1aad9d7b91f049e912555cb199bc66d0d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomD20</definition>
+        <argsstring>()</argsstring>
+        <name>RandomD20</name>
+        <briefdescription>
+<para>Generate a result from a traditional random 20-sided dice roll. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="24" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a7ad023ef095ad98f7d38c5b0234f2555" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomD20</definition>
+        <argsstring>(int maximumFudge)</argsstring>
+        <name>RandomD20</name>
+        <param>
+          <type>int</type>
+          <declname>maximumFudge</declname>
+        </param>
+        <briefdescription>
+<para>Generate a result from a traditional random 20-sided dice roll. Parameter for positive fudging is available. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maximumFudge</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum amount a dice roll can be increased by due to &quot;fudging&quot;.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="35" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a20ea91b7328f0a2b36e5992ee9a0ccbb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomD6</definition>
+        <argsstring>()</argsstring>
+        <name>RandomD6</name>
+        <briefdescription>
+<para>Generate a result from a traditional random 6-sided dice roll. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="46" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="46" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1aa9c2e1c718f8bd992bcd0cf9db877133" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomD6</definition>
+        <argsstring>(int maximumFudge)</argsstring>
+        <name>RandomD6</name>
+        <param>
+          <type>int</type>
+          <declname>maximumFudge</declname>
+        </param>
+        <briefdescription>
+<para>Generate a result from a traditional random 6-sided dice roll. Parameter for positive fudging is available. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maximumFudge</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum amount a dice roll can be increased by due to &quot;fudging&quot;.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="57" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="57" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a76b2cdf34cf16d0d6111c4fa1fee99aa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomD12</definition>
+        <argsstring>()</argsstring>
+        <name>RandomD12</name>
+        <briefdescription>
+<para>Generate a result from a traditional random 12-sided dice roll. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="70" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="70" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1ade21521b65ed17ec599752440894da3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomD12</definition>
+        <argsstring>(int maximumFudge)</argsstring>
+        <name>RandomD12</name>
+        <param>
+          <type>int</type>
+          <declname>maximumFudge</declname>
+        </param>
+        <briefdescription>
+<para>Generate a result from a traditional random 12-sided dice roll. Parameter for positive fudging is available. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maximumFudge</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum amount a dice roll can be increased by due to &quot;fudging&quot;.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="81" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="81" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a5ac73a488910e9de5b8be7763ec4dbdd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomD10</definition>
+        <argsstring>()</argsstring>
+        <name>RandomD10</name>
+        <briefdescription>
+<para>Generate a result from a traditional random 10-sided dice roll. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="92" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="92" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a1b6f0df165f0f040853099e294e1330f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomD10</definition>
+        <argsstring>(int maximumFudge)</argsstring>
+        <name>RandomD10</name>
+        <param>
+          <type>int</type>
+          <declname>maximumFudge</declname>
+        </param>
+        <briefdescription>
+<para>Generate a result from a traditional random 10-sided dice roll. Parameter for positive fudging is available. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maximumFudge</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum amount a dice roll can be increased by due to &quot;fudging&quot;.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="103" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="103" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1af70fd36e549d8b24cb9f6a0bf65420c4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomD100</definition>
+        <argsstring>()</argsstring>
+        <name>RandomD100</name>
+        <briefdescription>
+<para>Generate a result from a traditional random 100-sided dice roll. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="117" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="117" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a1adc13a0780aa138b796f4674d2e4eda" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomD100</definition>
+        <argsstring>(int maximumFudge)</argsstring>
+        <name>RandomD100</name>
+        <param>
+          <type>int</type>
+          <declname>maximumFudge</declname>
+        </param>
+        <briefdescription>
+<para>Generate a result from a traditional random 100-sided dice roll. Parameter for positive fudging is available. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maximumFudge</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum amount a dice roll can be increased by due to &quot;fudging&quot;.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="128" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="128" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a2733fdae70917bee5060cd4acbf338ab" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomD2</definition>
+        <argsstring>()</argsstring>
+        <name>RandomD2</name>
+        <briefdescription>
+<para>Generate a result from a traditional random 2-sided dice roll. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="142" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="142" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a1733e6410ac74e8bf64a053d6c52d898" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomD2</definition>
+        <argsstring>(int maximumFudge)</argsstring>
+        <name>RandomD2</name>
+        <param>
+          <type>int</type>
+          <declname>maximumFudge</declname>
+        </param>
+        <briefdescription>
+<para>Generate a result from a traditional random 2-sided dice roll. Parameter for positive fudging is available. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maximumFudge</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum amount a dice roll can be increased by due to &quot;fudging&quot;.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="153" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="153" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a5ed19ba2f5fce701530919461301f08f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string BigfootDS.BigfootDiceAndCoins.CoinFlip</definition>
+        <argsstring>()</argsstring>
+        <name>CoinFlip</name>
+        <briefdescription>
+<para>Flip a coin! Get &quot;Heads&quot; or &quot;Tails&quot; as the result. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="165" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="165" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a6d6665f7273e50d5971dcd4aaa1c371e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomDiceValue</definition>
+        <argsstring>(int diceSides)</argsstring>
+        <name>RandomDiceValue</name>
+        <param>
+          <type>int</type>
+          <declname>diceSides</declname>
+        </param>
+        <briefdescription>
+<para>Generate a result from custom X-sided dice roll. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>diceSides</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specify the number of sides that your custom dice will have.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="186" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="186" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1acd7f9d81c931fdfcf2c493d900e0ee45" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int BigfootDS.BigfootDiceAndCoins.RandomDiceValue</definition>
+        <argsstring>(int diceSides, int maximumFudge)</argsstring>
+        <name>RandomDiceValue</name>
+        <param>
+          <type>int</type>
+          <declname>diceSides</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maximumFudge</declname>
+        </param>
+        <briefdescription>
+<para>Generate a result from custom X-sided dice roll. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>diceSides</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specify the number of sides that your custom dice will have.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maximumFudge</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum amount a dice roll can be increased by due to &quot;fudging&quot;.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="198" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="198" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The Bigfoot &quot;Dice And Coins&quot; class handles some quick-to-use functions for dice rolls and coin flips. Twenty-sided dice, D100s, coins, and even custom-sized dice are supported here. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="12" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" bodystart="11" bodyend="205"/>
+    <listofallmembers>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a5ed19ba2f5fce701530919461301f08f" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>CoinFlip</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1ac403a8693f203330cfd7a24aa16337cc" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>NonStaticD20Roll</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a5ac73a488910e9de5b8be7763ec4dbdd" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomD10</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a1b6f0df165f0f040853099e294e1330f" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomD10</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1af70fd36e549d8b24cb9f6a0bf65420c4" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomD100</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a1adc13a0780aa138b796f4674d2e4eda" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomD100</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a76b2cdf34cf16d0d6111c4fa1fee99aa" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomD12</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1ade21521b65ed17ec599752440894da3c" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomD12</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a2733fdae70917bee5060cd4acbf338ab" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomD2</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a1733e6410ac74e8bf64a053d6c52d898" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomD2</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1aad9d7b91f049e912555cb199bc66d0d7" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomD20</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a7ad023ef095ad98f7d38c5b0234f2555" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomD20</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a20ea91b7328f0a2b36e5992ee9a0ccbb" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomD6</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1aa9c2e1c718f8bd992bcd0cf9db877133" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomD6</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1a6d6665f7273e50d5971dcd4aaa1c371e" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomDiceValue</name></member>
+      <member refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins_1acd7f9d81c931fdfcf2c493d900e0ee45" prot="public" virt="non-virtual"><scope>BigfootDS::BigfootDiceAndCoins</scope><name>RandomDiceValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_bigfoot_d_s" kind="namespace" language="C#">
+    <compoundname>BigfootDS</compoundname>
+    <innerclass refid="class_bigfoot_d_s_1_1_bigfoot_dice_and_coins" prot="public">BigfootDS::BigfootDiceAndCoins</innerclass>
+    <innerclass refid="class_bigfoot_d_s_1_1_bigfoot_dummy_test_script" prot="public">BigfootDS::BigfootDummyTestScript</innerclass>
+    <innerclass refid="class_bigfoot_d_s_1_1_bigfoot_event_invoker" prot="public">BigfootDS::BigfootEventInvoker</innerclass>
+    <innerclass refid="class_bigfoot_d_s_1_1_bigfoot_general_location_finder" prot="public">BigfootDS::BigfootGeneralLocationFinder</innerclass>
+    <innerclass refid="class_bigfoot_d_s_1_1_bigfoot_normals_inverter" prot="public">BigfootDS::BigfootNormalsInverter</innerclass>
+    <innerclass refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_default" prot="public">BigfootDS::BigfootWebColoursDefault</innerclass>
+    <innerclass refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_matte" prot="public">BigfootDS::BigfootWebColoursMatte</innerclass>
+    <innerclass refid="class_bigfoot_d_s_1_1_bigfoot_web_colours_metallic" prot="public">BigfootDS::BigfootWebColoursMetallic</innerclass>
+    <innerclass refid="class_bigfoot_d_s_1_1_colour_changer_tester" prot="public">BigfootDS::ColourChangerTester</innerclass>
+    <innerclass refid="class_bigfoot_d_s_1_1_folder_structure_generator" prot="public">BigfootDS::FolderStructureGenerator</innerclass>
+    <innerclass refid="class_bigfoot_d_s_1_1_folder_structure_wizard" prot="public">BigfootDS::FolderStructureWizard</innerclass>
+    <innerclass refid="class_bigfoot_d_s_1_1_scene_basics_generator" prot="public">BigfootDS::SceneBasicsGenerator</innerclass>
+    <innerclass refid="class_bigfoot_d_s_1_1_scene_changing" prot="public">BigfootDS::SceneChanging</innerclass>
+    <innerclass refid="class_bigfoot_d_s_1_1_simple_point_to_point_mover" prot="public">BigfootDS::SimplePointToPointMover</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_bigfoot_d_s_1abbe5e74a13ceee1200fe8df86775491b" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ColourType</name>
+        <enumvalue id="namespace_bigfoot_d_s_1abbe5e74a13ceee1200fe8df86775491ba7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_bigfoot_d_s_1abbe5e74a13ceee1200fe8df86775491ba63178c24c66745ea5c42bf51739a8352" prot="public">
+          <name>Matte</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_bigfoot_d_s_1abbe5e74a13ceee1200fe8df86775491ba19dce4a66f8f7b74a6ef0664a88a15dd" prot="public">
+          <name>Metallic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The main colour types of the built-in web colour materials. Should be Default, Matte and Metallic! </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" line="11" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/ColourChangerTester.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/BigfootDS/_Common/Scripts/BigfootDiceAndCoins.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

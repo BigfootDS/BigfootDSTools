@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_bigfoot_d_s_1_1_simple_point_to_point_mover" kind="class" language="C#" prot="public">
+    <compoundname>BigfootDS::SimplePointToPointMover</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1af03dba084f0e3c2cad7041ac22e7df66" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BigfootDS.SimplePointToPointMover.destinationStopDelay</definition>
+        <argsstring></argsstring>
+        <name>destinationStopDelay</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" line="9" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1a6e5600a3333bce2d0a75aa34e5eb4a85" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BigfootDS.SimplePointToPointMover.destinationDistanceOffset</definition>
+        <argsstring></argsstring>
+        <name>destinationDistanceOffset</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" line="10" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1a00fcff6e73f20c51bc8c2e627e25ef9d" prot="public" static="no" mutable="no">
+        <type>Transform []</type>
+        <definition>Transform [] BigfootDS.SimplePointToPointMover.pointsToMoveBetween</definition>
+        <argsstring></argsstring>
+        <name>pointsToMoveBetween</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" line="11" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1a5d4418a9afe7800e8ed81457a825b00d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BigfootDS.SimplePointToPointMover.movementSpeed</definition>
+        <argsstring></argsstring>
+        <name>movementSpeed</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" line="13" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1ae41af53fb5b5c4416ea14fae42db521b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool BigfootDS.SimplePointToPointMover.isStopped</definition>
+        <argsstring></argsstring>
+        <name>isStopped</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" line="14" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1a80edebfdd4475ef7a4f7450bcb712bbb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BigfootDS.SimplePointToPointMover.pointIndex</definition>
+        <argsstring></argsstring>
+        <name>pointIndex</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" line="12" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1adb5ca88a5ebe57674c2bbb58ca9eea50" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BigfootDS.SimplePointToPointMover.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" line="16" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1a2dd11ef23f347a805973c47c5e7cef74" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator BigfootDS.SimplePointToPointMover.SimplePointToPointRoutine</definition>
+        <argsstring>()</argsstring>
+        <name>SimplePointToPointRoutine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" line="22" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" bodystart="22" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="57">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="56">
+        <label>BigfootDS.SimplePointToPointMover</label>
+        <link refid="class_bigfoot_d_s_1_1_simple_point_to_point_mover"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="59">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="58">
+        <label>BigfootDS.SimplePointToPointMover</label>
+        <link refid="class_bigfoot_d_s_1_1_simple_point_to_point_mover"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" line="7" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/SimplePointToPointMover.cs" bodystart="7" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1a6e5600a3333bce2d0a75aa34e5eb4a85" prot="public" virt="non-virtual"><scope>BigfootDS::SimplePointToPointMover</scope><name>destinationDistanceOffset</name></member>
+      <member refid="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1af03dba084f0e3c2cad7041ac22e7df66" prot="public" virt="non-virtual"><scope>BigfootDS::SimplePointToPointMover</scope><name>destinationStopDelay</name></member>
+      <member refid="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1ae41af53fb5b5c4416ea14fae42db521b" prot="public" virt="non-virtual"><scope>BigfootDS::SimplePointToPointMover</scope><name>isStopped</name></member>
+      <member refid="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1a5d4418a9afe7800e8ed81457a825b00d" prot="public" virt="non-virtual"><scope>BigfootDS::SimplePointToPointMover</scope><name>movementSpeed</name></member>
+      <member refid="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1adb5ca88a5ebe57674c2bbb58ca9eea50" prot="private" virt="non-virtual"><scope>BigfootDS::SimplePointToPointMover</scope><name>OnEnable</name></member>
+      <member refid="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1a80edebfdd4475ef7a4f7450bcb712bbb" prot="private" virt="non-virtual"><scope>BigfootDS::SimplePointToPointMover</scope><name>pointIndex</name></member>
+      <member refid="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1a00fcff6e73f20c51bc8c2e627e25ef9d" prot="public" virt="non-virtual"><scope>BigfootDS::SimplePointToPointMover</scope><name>pointsToMoveBetween</name></member>
+      <member refid="class_bigfoot_d_s_1_1_simple_point_to_point_mover_1a2dd11ef23f347a805973c47c5e7cef74" prot="private" virt="non-virtual"><scope>BigfootDS::SimplePointToPointMover</scope><name>SimplePointToPointRoutine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

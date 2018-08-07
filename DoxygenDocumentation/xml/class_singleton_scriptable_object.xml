@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_singleton_scriptable_object" kind="class" language="C#" prot="public">
+    <compoundname>SingletonScriptableObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_singleton_scriptable_object_1a84ad9412dd0724908197bbf336487ed4" prot="private" static="yes" mutable="no">
+        <type>T</type>
+        <definition>T SingletonScriptableObject&lt; T &gt;._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/SingletonScriptableObject.cs" line="11" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/SingletonScriptableObject.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_singleton_scriptable_object_1ab7d1b120991063507e31e1925880ac43" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>T</type>
+        <definition>T SingletonScriptableObject&lt; T &gt;.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/BigfootDS/_Common/Scripts/SingletonScriptableObject.cs" line="12" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/SingletonScriptableObject.cs" bodystart="12" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="60">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="62">
+        <label>SingletonScriptableObject&lt; T &gt;</label>
+        <link refid="class_singleton_scriptable_object"/>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/BigfootDS/_Common/Scripts/SingletonScriptableObject.cs" line="10" column="1" bodyfile="Assets/BigfootDS/_Common/Scripts/SingletonScriptableObject.cs" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_singleton_scriptable_object_1a84ad9412dd0724908197bbf336487ed4" prot="private" virt="non-virtual"><scope>SingletonScriptableObject</scope><name>_instance</name></member>
+      <member refid="class_singleton_scriptable_object_1ab7d1b120991063507e31e1925880ac43" prot="public" virt="non-virtual"><scope>SingletonScriptableObject</scope><name>data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
